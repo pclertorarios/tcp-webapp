@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Stack, Img, Column, Text, SelectBox, Input } from "components";
+import { Stack, Img, Column, Text, SelectBox, Input, Button } from "components";
 import Footer from "components/Footer/Footer";
 
 const RegsitroPage = () => {
@@ -60,13 +60,14 @@ const RegsitroPage = () => {
             name="GroupSix"
             placeholder="Contraseña"
           ></Input>
-          <Text
-            className="bg-indigo_400 font-bold lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:pb-[12px] xl:pb-[16px] 2xl:pb-[18px] 3xl:pb-[21px] lg:pt-[15px] xl:pt-[19px] 2xl:pt-[22px] 3xl:pt-[26px] lg:px-[24px] xl:px-[31px] 2xl:px-[35px] 3xl:px-[42px] rounded-radius20 text-gray_51 w-[537px]"
-            as="h3"
-            variant="h3"
+          <Button
+            className="font-bold lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center w-[100%]"
+            shape="RoundedBorder20"
+            size="md"
+            variant="FillIndigo400"
           >
             Regístrate
-          </Text>
+          </Button>
         </Column>
         <Img
           src="images/img_imagecoba4.png"
