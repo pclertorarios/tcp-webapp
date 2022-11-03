@@ -20,18 +20,18 @@ const ProjectRoutes = () => {
         <Route path="/" element={<Register />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/regsitroerror" element={<Regsitroerror />} />
-        <Route path="/desktopfortyseven" element={<DesktopFortySeven />} />
-        <Route path="/desktopthirteen" element={<DesktopThirteen />} />
-        <Route path="/desktopthirtyseven" element={<DesktopThirtySeven />} />
-        <Route path="/desktopfortyeight" element={<DesktopFortyEight />} />
-        <Route path="/desktopfortynine" element={<DesktopFortyNine />} />
-        <Route path="/desktopfifty" element={<DesktopFifty />} />
-        <Route path="/desktopeight" element={<DesktopEight />} />
-        <Route path="/desktopfiftyone" element={<DesktopFiftyOne />} />
+        <Route path="/inicio" element={<DesktopEight />} />
+        <Route path="/calendario" element={<DesktopFortySeven />} />
+        <Route path="/mistalleres" element={<DesktopThirteen />} />
+        <Route path="/detallestaller" element={<DesktopThirtySeven />} />
+        <Route path="/asistencia" element={<DesktopFortyEight />} />
+        <Route path="/mistutorias" element={<DesktopFortyNine />} />
+        <Route path="/rendimiento" element={<DesktopFifty />} />
         <Route path="/dhiwise-dashboard" element={<Home />} />
       </Routes>
     </Router>
   );
 };
 
+//<Route path="/desktopfiftyone" element={<DesktopFiftyOne />} />
 export default ProjectRoutes;

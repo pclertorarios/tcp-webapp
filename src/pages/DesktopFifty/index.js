@@ -8,21 +8,28 @@ import { useNavigate } from "react-router-dom";
 const DesktopFiftyPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate9() {
-    navigate("/desktopthirteen");
+  function handleNavigateInicio() {
+    navigate("/inicio");
   }
-  function handleNavigate13() {
-    navigate("/desktopfortynine");
+  function handleNavigateMisTutorias() {
+    navigate("/mistutorias");
   }
-  function handleNavigate14() {
-    navigate("/desktopfortyseven");
+  function handleNavigateCalendar() {
+    navigate("/calendario");
+  }
+
+  function handleNavigateRendimiento() {
+    navigate("/rendimiento");
+  }
+  function handleNavigateMisTalleres() {
+    navigate("/mistalleres");
   }
 
   return (
     <>
       <Column className="bg-white_A700 font-montserrat items-center justify-start mx-[auto] lg:pl-[34px] xl:pl-[43px] 2xl:pl-[49px] 3xl:pl-[58px] w-[100%]">
         <Row className="items-start justify-between w-[100%]">
-          <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
+        <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
             <Img
               src="images/img_d01bb442c0777d9.png"
               className="d01bb442c0777dNine"
@@ -40,17 +47,17 @@ const DesktopFiftyPage = () => {
               <Text className="columnu201910362upc1">
                 u201910362@upc.edu.pe
               </Text>
-              <Row className="items-center lg:mt-[58px] xl:mt-[72px] 2xl:mt-[82px] 3xl:mt-[98px] w-[43%]">
-                <Img
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Img
                   src="images/img_computer.svg"
                   className="computer"
                   alt="computer"
                 />
-                <Text className="rowcomputer" as="h6" variant="h6">
+                <Text className="common-pointer rowakaricons" as="h6" variant="h6"onClick={handleNavigateInicio}>
                   Inicio
                 </Text>
               </Row>
-              <Row className="items-center lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[71%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_teacher.png"
                   className="computer"
@@ -60,40 +67,38 @@ const DesktopFiftyPage = () => {
                   className="common-pointer rowcomputer"
                   as="h6"
                   variant="h6"
-                  onClick={handleNavigate13}
+                  onClick={handleNavigateMisTutorias}
                 >
                   Mis tutorías
                 </Text>
               </Row>
-              <Row className="items-start lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] w-[66%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <div className="computer"></div>
                 <Text
                   className="common-pointer rowakaricons1"
                   as="h6"
                   variant="h6"
-                  onClick={handleNavigate14}
+                  onClick={handleNavigateCalendar}
                 >
                   Calendario
                 </Text>
               </Row>
-              <Button
-                className="2xl:mt-[26px] 3xl:mt-[31px] flex items-center justify-center lg:mt-[18px] text-center w-[100%] xl:mt-[23px]"
-                leftIcon={
-                  <Img
-                    src="images/img_vector.svg"
-                    className="text-center lg:w-[12px] lg:mr-[14px] xl:w-[16px] xl:mr-[17px] 2xl:w-[18px] 2xl:mr-[20px] 3xl:w-[21px] 3xl:mr-[24px]"
-                    alt="Vector"
-                  />
-                }
-                shape="RoundedBorder20"
-                size="lg"
-                variant="FillGray50"
-              >
-                <div className="bg-transparent font-bold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
+              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+                <Img
+                  src="images/img_checkmark.svg"
+                  className="checkmark"
+                  alt="checkmark"
+                />
+                <Text
+                  className="common-pointer rowcheckmark"
+                  as="h6"
+                  variant="h6"
+                  onClick={handleNavigateRendimiento}
+                >
                   Rendimiento
-                </div>
-              </Button>
-              <Row className="items-center lg:mt-[18px] xl:mt-[23px] 2xl:mt-[26px] 3xl:mt-[31px] w-[69%]">
+                </Text>
+              </Row>
+              <Row className=" items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_videoconferenc.png"
                   className="computer"
@@ -103,24 +108,24 @@ const DesktopFiftyPage = () => {
                   className="common-pointer rowcomputer"
                   as="h6"
                   variant="h6"
-                  onClick={handleNavigate9}
+                  onClick={handleNavigateMisTalleres}
                 >
                   Mis talleres
                 </Text>
               </Row>
-              <Row className="items-center justify-end ml-[auto] lg:mt-[31px] xl:mt-[39px] 2xl:mt-[44px] 3xl:mt-[52px] w-[87%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img src="images/img_map.svg" className="map" alt="map" />
-                <Text className="rowcomputer" as="h6" variant="h6">
+                <Text className="common-pointer rowcomputer" as="h6" variant="h6">
                   Guía de usuario
                 </Text>
               </Row>
-              <Row className="items-start lg:mt-[32px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] w-[38%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_computer_20X20.svg"
                   className="computer_One"
-                  alt="computer One"
+                  alt="computer"
                 />
-                <Text className="rowcomputer_one" as="h6" variant="h6">
+                <Text className="common-pointer rowcomputer_one" as="h6" variant="h6">
                   FAQ
                 </Text>
               </Row>
