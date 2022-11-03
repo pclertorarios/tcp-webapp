@@ -32,12 +32,11 @@ const Calendario = () => {
     navigate("/mistalleres");
   }
 
-
   return (
     <>
       <Column className="bg-white_A700 font-montserrat items-center justify-start mx-[auto] lg:pl-[34px] xl:pl-[43px] 2xl:pl-[49px] 3xl:pl-[58px] w-[100%]">
         <Row className="items-start justify-between w-[100%]">
-        <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
+          <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
             <Img
               src="images/img_d01bb442c0777d9.png"
               className="d01bb442c0777dNine"
@@ -56,12 +55,17 @@ const Calendario = () => {
                 u201910362@upc.edu.pe
               </Text>
               <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
-              <Img
+                <Img
                   src="images/img_computer.svg"
                   className="computer"
                   alt="computer"
                 />
-                <Text className="common-pointer rowakaricons" as="h6" variant="h6"onClick={handleNavigateInicio}>
+                <Text
+                  className="common-pointer rowakaricons"
+                  as="h6"
+                  variant="h6"
+                  onClick={handleNavigateInicio}
+                >
                   Inicio
                 </Text>
               </Row>
@@ -123,7 +127,11 @@ const Calendario = () => {
               </Row>
               <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img src="images/img_map.svg" className="map" alt="map" />
-                <Text className="common-pointer rowcomputer" as="h6" variant="h6">
+                <Text
+                  className="common-pointer rowcomputer"
+                  as="h6"
+                  variant="h6"
+                >
                   Guía de usuario
                 </Text>
               </Row>
@@ -236,192 +244,6 @@ const Calendario = () => {
                   />
                 </Button>
               </Row>
-              <Stack className="font-roboto lg:h-[107px] xl:h-[134px] 2xl:h-[151px] 3xl:h-[181px] lg:mt-[12px] xl:mt-[15px] 2xl:mt-[17px] 3xl:mt-[20px] w-[93%]">
-                <Stack className="absolute lg:h-[33px] xl:h-[41px] 2xl:h-[47px] 3xl:h-[56px] top-[0] w-[100%]">
-                  <Stack className="absolute lg:h-[33px] xl:h-[41px] 2xl:h-[47px] 3xl:h-[56px] right-[0] w-[86%]">
-                    <Stack className="absolute lg:h-[33px] xl:h-[41px] 2xl:h-[47px] 3xl:h-[56px] right-[0] w-[84%]">
-                      <Stack className="absolute lg:h-[33px] xl:h-[41px] 2xl:h-[47px] 3xl:h-[56px] right-[0] w-[81%]">
-                        <Stack className="absolute lg:h-[33px] xl:h-[41px] 2xl:h-[47px] 3xl:h-[56px] right-[0] w-[76%]">
-                          <Stack className="absolute lg:h-[33px] xl:h-[41px] 2xl:h-[47px] 3xl:h-[56px] right-[0] w-[69%]">
-                            <Column className="absolute items-center justify-start right-[0] w-[55%]">
-                              <Column className="bg-white_A700 items-end justify-start lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] rounded-bl-[0] rounded-br-[0] rounded-tl-[20px] rounded-tr-[0] w-[100%]">
-                                <Text className="DayOfTheWeek" variant="body2">
-                                  Sun
-                                </Text>
-                              </Column>
-                            </Column>
-                            <Column className="absolute items-center justify-start left-[0] w-[55%]">
-                              <Column className="bg-white_A700 items-end justify-start lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[100%]">
-                                <Text className="DayOfTheWeek" variant="body2">
-                                  Sat
-                                </Text>
-                              </Column>
-                            </Column>
-                          </Stack>
-                          <Column className="absolute items-center justify-start left-[0] w-[38%]">
-                            <Column className="bg-white_A700 items-end justify-start lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[100%]">
-                              <Text
-                                className="flex items-center DayOfTheWeek"
-                                variant="body2"
-                              >
-                                Fri
-                              </Text>
-                            </Column>
-                          </Column>
-                        </Stack>
-                        <Column className="absolute items-center justify-start left-[0] w-[29%]">
-                          <Column className="bg-white_A700 items-end justify-start lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[100%]">
-                            <Text className="DayOfTheWeek" variant="body2">
-                              Thu
-                            </Text>
-                          </Column>
-                        </Column>
-                      </Stack>
-                      <Column className="absolute items-center justify-start left-[0] w-[23%]">
-                        <Column className="bg-white_A700 items-end justify-start lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[100%]">
-                          <Text className="DayOfTheWeek" variant="body2">
-                            Wed
-                          </Text>
-                        </Column>
-                      </Column>
-                    </Stack>
-                    <Column className="absolute items-center justify-start left-[0] w-[20%]">
-                      <Column className="bg-white_A700 items-end justify-start lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[100%]">
-                        <Text className="DayOfTheWeek" variant="body2">
-                          Tue
-                        </Text>
-                      </Column>
-                    </Column>
-                  </Stack>
-                  <Column className="absolute items-center justify-start left-[0] rounded-bl-[0] rounded-br-[0] rounded-tl-[20px] rounded-tr-[0] w-[17%]">
-                    <Text
-                      className="bg-white_A700 font-medium lg:pl-[24px] xl:pl-[31px] 2xl:pl-[35px] 3xl:pl-[42px] lg:pr-[5px] xl:pr-[7px] 2xl:pr-[8px] 3xl:pr-[9px] lg:py-[11px] xl:py-[14px] 2xl:py-[16px] 3xl:py-[19px] rotate-[90deg] rounded-bl-[0] rounded-br-[0] rounded-tl-[20px] rounded-tr-[0] text-bluegray_900 w-[163px]"
-                      variant="body2"
-                    >
-                      Mon
-                    </Text>
-                  </Column>
-                </Stack>
-                <Column className="absolute bg-gray_100 bottom-[0] items-center justify-start right-[14%] w-[14%]">
-                  <Column className="bg-gray_52 justify-start outline outline-[1px] outline-blue_100 lg:py-[5px] xl:py-[7px] 2xl:py-[8px] 3xl:py-[9px] rotate-[90deg] w-[100%]">
-                    <Text className="Day" as="h6" variant="h6">
-                      6
-                    </Text>
-                    <div className="bg-indigo_400 lg:h-[11px] xl:h-[14px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[32px] xl:mb-[40px] 2xl:mb-[46px] 3xl:mb-[55px] lg:mt-[11px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] w-[100%]"></div>
-                  </Column>
-                </Column>
-                <Column className="absolute bg-white_A700 bottom-[0] items-end justify-start outline outline-[1px] outline-blue_100 lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] right-[29%] rotate-[90deg] w-[14%]">
-                  <Text
-                    className="font-medium lg:mb-[54px] xl:mb-[68px] 2xl:mb-[77px] 3xl:mb-[92px] rotate-[90deg] text-bluegray_901 w-[auto]"
-                    as="h6"
-                    variant="h6"
-                  >
-                    5
-                  </Text>
-                </Column>
-                <Column className="absolute bg-white_A700 bottom-[0] inset-x-[0] justify-start mx-[auto] outline outline-[1px] outline-blue_100 lg:py-[5px] xl:py-[7px] 2xl:py-[8px] 3xl:py-[9px] rotate-[90deg] w-[14%]">
-                  <Text className="Day" as="h6" variant="h6">
-                    4
-                  </Text>
-                  <div className="bg-indigo_400 lg:h-[11px] xl:h-[14px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[32px] xl:mb-[40px] 2xl:mb-[46px] 3xl:mb-[55px] lg:mt-[11px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] w-[100%]"></div>
-                </Column>
-                <Text className="absolute bottom-[0] left-[29%] rotate-[90deg] w-[auto]"></Text>
-                <Text className="absolute bottom-[0] left-[14%] rotate-[90deg] w-[auto]"></Text>
-                <Text className="absolute bottom-[0] left-[0] rotate-[90deg] w-[auto]"></Text>
-              </Stack>
-              <List
-                className="font-roboto gap-[0] min-h-[auto] w-[93%]"
-                orientation="vertical"
-              >
-                <Row className="items-center justify-evenly my-[0] w-[100%]">
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Column className="bg-white_A700 items-end outline outline-[1px] outline-blue_100 lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[14%]">
-                    <Text
-                      className="font-medium lg:mb-[54px] xl:mb-[67px] 2xl:mb-[76px] 3xl:mb-[91px] mr-[3px] rotate-[90deg] text-bluegray_901 w-[auto]"
-                      as="h6"
-                      variant="h6"
-                    >
-                      11
-                    </Text>
-                  </Column>
-                  <Stack className="2xl:h-[109px] 3xl:h-[130px] lg:h-[77px] xl:h-[97px] w-[29%]">
-                    <Column className="absolute items-center justify-start w-[100%]">
-                      <Row className="items-center justify-evenly w-[100%]">
-                        <Column className="bg-white_A700 items-end outline outline-[1px] outline-blue_100 lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[50%]">
-                          <Text className="Day8" as="h6" variant="h6">
-                            12
-                          </Text>
-                        </Column>
-                        <Column className="bg-gray_100 items-center w-[50%]">
-                          <Column className="bg-gray_52 items-end justify-start outline outline-[1px] outline-blue_100 lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[100%]">
-                            <Text className="Day8" as="h6" variant="h6">
-                              13
-                            </Text>
-                          </Column>
-                        </Column>
-                      </Row>
-                    </Column>
-                    <div className="absolute bg-indigo_400 lg:h-[11px] xl:h-[14px] 2xl:h-[16px] 3xl:h-[19px] left-[0] top-[37%] w-[50%]"></div>
-                  </Stack>
-                  <Column className="bg-gray_100 items-center w-[14%]">
-                    <Text className="rotate-[90deg] w-[auto]"></Text>
-                  </Column>
-                </Row>
-                <Row className="items-center justify-evenly my-[0] w-[100%]">
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Column className="bg-white_A700 outline outline-[1px] outline-blue_100 lg:py-[5px] xl:py-[7px] 2xl:py-[8px] 3xl:py-[9px] rotate-[90deg] w-[14%]">
-                    <Text
-                      className="flex font-medium items-center xl:ml-[100px] 2xl:ml-[113px] 3xl:ml-[135px] lg:ml-[80px] rotate-[90deg] text-bluegray_901 w-[auto]"
-                      as="h6"
-                      variant="h6"
-                    >
-                      18
-                    </Text>
-                    <div className="bg-indigo_400 lg:h-[11px] xl:h-[14px] 2xl:h-[16px] 3xl:h-[19px] lg:mb-[32px] xl:mb-[40px] 2xl:mb-[45px] 3xl:mb-[54px] lg:mt-[11px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] w-[100%]"></div>
-                  </Column>
-                  <Column className="bg-white_A700 items-end outline outline-[1px] outline-blue_100 lg:p-[5px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rotate-[90deg] w-[14%]">
-                    <Text className="Day8" as="h6" variant="h6">
-                      19
-                    </Text>
-                  </Column>
-                  <Column className="bg-gray_100 items-center w-[14%]">
-                    <Text className="rotate-[90deg] w-[auto]"></Text>
-                  </Column>
-                  <Column className="bg-gray_100 items-center w-[14%]">
-                    <Text className="rotate-[90deg] w-[auto]"></Text>
-                  </Column>
-                </Row>
-                <Row className="items-center justify-evenly my-[0] w-[100%]">
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Column className="bg-gray_100 items-center w-[14%]">
-                    <Text className="rotate-[90deg] w-[auto]"></Text>
-                  </Column>
-                  <Column className="bg-gray_100 items-center w-[14%]">
-                    <Text className="rotate-[90deg] w-[auto]"></Text>
-                  </Column>
-                </Row>
-                <Row className="items-center justify-evenly my-[0] w-[100%]">
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Text className="rotate-[90deg] w-[auto]"></Text>
-                  <Column className="bg-gray_100 items-center w-[14%]">
-                    <Text className="rotate-[90deg] w-[auto]"></Text>
-                  </Column>
-                  <Column className="bg-gray_100 items-center w-[14%]">
-                    <Text className="rotate-[90deg] w-[auto]"></Text>
-                  </Column>
-                </Row>
-              </List>
             </Column>
           </Column>
         </Row>

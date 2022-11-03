@@ -8,7 +8,6 @@ const Asistencia = () => {
   function handleNavigateDetallerTaller() {
     navigate("/detallestaller");
   }
-
   function handleNavigateInicio() {
     navigate("/inicio");
   }
@@ -18,7 +17,6 @@ const Asistencia = () => {
   function handleNavigateCalendar() {
     navigate("/calendario");
   }
-
   function handleNavigateRendimiento() {
     navigate("/rendimiento");
   }
@@ -30,7 +28,7 @@ const Asistencia = () => {
     <>
       <Column className="bg-white_A700 font-montserrat items-center justify-start mx-[auto] lg:pl-[34px] xl:pl-[43px] 2xl:pl-[49px] 3xl:pl-[58px] w-[100%]">
         <Row className="items-start justify-between w-[100%]">
-        <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
+          <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
             <Img
               src="images/img_d01bb442c0777d9.png"
               className="d01bb442c0777dNine"
@@ -49,12 +47,17 @@ const Asistencia = () => {
                 u201910362@upc.edu.pe
               </Text>
               <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
-              <Img
+                <Img
                   src="images/img_computer.svg"
                   className="computer"
                   alt="computer"
                 />
-                <Text className="common-pointer rowakaricons" as="h6" variant="h6"onClick={handleNavigateInicio}>
+                <Text
+                  className="common-pointer rowakaricons"
+                  as="h6"
+                  variant="h6"
+                  onClick={handleNavigateInicio}
+                >
                   Inicio
                 </Text>
               </Row>
@@ -116,7 +119,11 @@ const Asistencia = () => {
               </Row>
               <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img src="images/img_map.svg" className="map" alt="map" />
-                <Text className="common-pointer rowcomputer" as="h6" variant="h6">
+                <Text
+                  className="common-pointer rowcomputer"
+                  as="h6"
+                  variant="h6"
+                >
                   Guía de usuario
                 </Text>
               </Row>
