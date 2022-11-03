@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Stack, Img, Column, Text, SelectBox, Input } from "components";
+import { Stack, Img, Column, Text, SelectBox, Input, Button } from "components";
 import Footer from "components/Footer/Footer";
 
 const RegsitroerrorPage = () => {
@@ -21,22 +21,22 @@ const RegsitroerrorPage = () => {
           />
           <Text
             className="font-montserrat ml-[3px] 3xl:mt-[109px] lg:mt-[64px] xl:mt-[80px] 2xl:mt-[91px] text-gray_900 w-[auto]"
-            as="h1"
-            variant="h1"
+            as="h2"
+            variant="h2"
           >
             Iniciar sesión
           </Text>
           <Text
             className="lg:mt-[19px] xl:mt-[24px] 2xl:mt-[28px] 3xl:mt-[33px] rowinicio"
-            as="h3"
-            variant="h3"
+            as="h5"
+            variant="h5"
           >
             Inicia sesión con tu correo institucional
           </Text>
           <SelectBox
             className="font-medium font-montserrat lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-gray_401 tracking-ls1 w-[100%]"
             placeholderClassName="text-gray_401"
-            name="GroupOne"
+            name="Group293"
             placeholder="Institución educativa"
             isSearchable={false}
             isMulti={false}
@@ -47,34 +47,36 @@ const RegsitroerrorPage = () => {
                 alt="arrow_down"
               />
             }
+            size="md"
           ></SelectBox>
           <Input
             className="font-medium font-montserrat p-[0] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] placeholder:text-gray_401 text-gray_401 tracking-ls1 w-[100%]"
             wrapClassName="2xl:mt-[17px] 3xl:mt-[20px] lg:mt-[12px] w-[100%] xl:mt-[15px]"
-            name="GroupFour"
+            name="Group296"
             placeholder="Correo"
             variant="OutlineRed200"
           ></Input>
           <Text
             className="font-medium font-roboto lg:ml-[25px] xl:ml-[32px] 2xl:ml-[36px] 3xl:ml-[43px] mt-[3px] text-red_500 tracking-ls1 w-[auto]"
-            as="h4"
-            variant="h4"
+            as="h6"
+            variant="h6"
           >
             Correo inválido
           </Text>
           <Input
             className="font-medium font-montserrat p-[0] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] placeholder:text-gray_401 text-gray_401 tracking-ls1 w-[100%]"
             wrapClassName="2xl:mt-[19px] 3xl:mt-[22px] lg:mt-[13px] w-[100%] xl:mt-[16px]"
-            name="GroupTwo"
+            name="Group294"
             placeholder="Contraseña"
           ></Input>
-          <Text
-            className="bg-indigo_400 font-bold font-montserrat lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:pb-[12px] xl:pb-[16px] 2xl:pb-[18px] 3xl:pb-[21px] lg:pt-[15px] xl:pt-[19px] 2xl:pt-[22px] 3xl:pt-[26px] lg:px-[24px] xl:px-[31px] 2xl:px-[35px] 3xl:px-[42px] rounded-radius20 text-gray_51 w-[537px]"
-            as="h3"
-            variant="h3"
+          <Button
+            className="font-bold font-montserrat lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center text-gray_51 w-[100%]"
+            shape="RoundedBorder20"
+            size="xl"
+            variant="FillIndigo400"
           >
             Regístrate
-          </Text>
+          </Button>
         </Column>
         <Img
           src="images/img_imagecoba4.png"

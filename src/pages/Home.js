@@ -12,13 +12,34 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/">Regsitro</Link>
-        </li>
-        <li>
-          <Link to="/desktopfortythree">DesktopFortyThree</Link>
+          <Link to="/">Register</Link>
         </li>
         <li>
           <Link to="/regsitroerror">Regsitroerror</Link>
+        </li>
+        <li>
+          <Link to="/desktopfortyseven">DesktopFortySeven</Link>
+        </li>
+        <li>
+          <Link to="/desktopthirteen">DesktopThirteen</Link>
+        </li>
+        <li>
+          <Link to="/desktopthirtyseven">DesktopThirtySeven</Link>
+        </li>
+        <li>
+          <Link to="/desktopfortyeight">DesktopFortyEight</Link>
+        </li>
+        <li>
+          <Link to="/desktopfortynine">DesktopFortyNine</Link>
+        </li>
+        <li>
+          <Link to="/desktopfifty">DesktopFifty</Link>
+        </li>
+        <li>
+          <Link to="/desktopeight">DesktopEight</Link>
+        </li>
+        <li>
+          <Link to="/desktopfiftyone">DesktopFiftyOne</Link>
         </li>
       </ul>
     </div>

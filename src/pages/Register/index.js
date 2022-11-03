@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Stack, Img, Column, Text, SelectBox, Input } from "components";
+import { Stack, Img, Column, Text, SelectBox, Input, Button } from "components";
 import Footer from "components/Footer/Footer";
 
-const RegsitroPage = () => {
+const RegisterPage = () => {
   return (
     <>
       <Stack className="bg-gray_50 font-montserrat xl:h-[1013px] 2xl:h-[1139px] 3xl:h-[1367px] lg:h-[810px] mx-[auto] pl-[1px] w-[100%]">
@@ -21,22 +21,22 @@ const RegsitroPage = () => {
           />
           <Text
             className="ml-[3px] 3xl:mt-[109px] lg:mt-[64px] xl:mt-[80px] 2xl:mt-[91px] text-gray_900 w-[auto]"
-            as="h1"
-            variant="h1"
+            as="h2"
+            variant="h2"
           >
             Iniciar sesión
           </Text>
           <Text
             className="font-semibold lg:mt-[19px] xl:mt-[24px] 2xl:mt-[28px] 3xl:mt-[33px] text-gray_400 w-[auto]"
-            as="h3"
-            variant="h3"
+            as="h5"
+            variant="h5"
           >
             Inicia sesión con tu correo institucional
           </Text>
           <SelectBox
             className="font-medium lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-gray_401 tracking-ls1 w-[100%]"
             placeholderClassName="text-gray_401"
-            name="GroupNine"
+            name="Group310"
             placeholder="Institución educativa"
             isSearchable={false}
             isMulti={false}
@@ -47,26 +47,28 @@ const RegsitroPage = () => {
                 alt="arrow_down"
               />
             }
+            size="md"
           ></SelectBox>
           <Input
             className="font-medium p-[0] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] placeholder:text-gray_401 text-gray_401 tracking-ls1 w-[100%]"
             wrapClassName="2xl:mt-[17px] 3xl:mt-[20px] lg:mt-[12px] w-[100%] xl:mt-[15px]"
-            name="GroupEight"
+            name="Group309"
             placeholder="Correo"
           ></Input>
           <Input
             className="font-medium p-[0] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] placeholder:text-gray_401 text-gray_401 tracking-ls1 w-[100%]"
             wrapClassName="2xl:mt-[17px] 3xl:mt-[20px] lg:mt-[12px] w-[100%] xl:mt-[15px]"
-            name="GroupSix"
+            name="Group307"
             placeholder="Contraseña"
           ></Input>
-          <Text
-            className="bg-indigo_400 font-bold lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:pb-[12px] xl:pb-[16px] 2xl:pb-[18px] 3xl:pb-[21px] lg:pt-[15px] xl:pt-[19px] 2xl:pt-[22px] 3xl:pt-[26px] lg:px-[24px] xl:px-[31px] 2xl:px-[35px] 3xl:px-[42px] rounded-radius20 text-gray_51 w-[537px]"
-            as="h3"
-            variant="h3"
+          <Button
+            className="font-bold lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center text-gray_51 w-[100%]"
+            shape="RoundedBorder20"
+            size="xl"
+            variant="FillIndigo400"
           >
             Regístrate
-          </Text>
+          </Button>
         </Column>
         <Img
           src="images/img_imagecoba4.png"
@@ -78,4 +80,4 @@ const RegsitroPage = () => {
   );
 };
 
-export default RegsitroPage;
+export default RegisterPage;
