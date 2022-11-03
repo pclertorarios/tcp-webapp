@@ -11,7 +11,6 @@ import { Text } from "./Text";
 import { SelectBox } from "./SelectBox";
 import { Input } from "./Input";
 import { Button } from "./Button";
-import { Slider } from "./Slider";
 export {
   Column,
   Datepicker,
@@ -26,5 +25,4 @@ export {
   SelectBox,
   Input,
   Button,
-  Slider,
 };

@@ -66,20 +66,44 @@ li:hover{
   transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
 
-.Tallerdeempre{
- @apply font-bold leading-[normal] text-black_900 w-[100%]; 
-}
-.Da23dejuni{
- @apply xl:mt-[11px] 2xl:mt-[13px] 3xl:mt-[15px] lg:mt-[9px] text-black_900 w-[auto]; 
-}
-.time_Four{
- @apply lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] text-black_900 w-[auto]; 
-}
-.Da23dejuni_Three{
- @apply lg:mt-[12px] xl:mt-[15px] 2xl:mt-[17px] 3xl:mt-[20px] text-black_900 w-[auto]; 
+.columnd01bb442c0777dnine{
+ @apply font-bold lg:mt-[18px] xl:mt-[23px] 2xl:mt-[26px] 3xl:mt-[31px] text-gray_900 w-[auto]; 
 }
 .rowteacher{
  @apply font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] text-gray_500 w-[auto]; 
+}
+.Teacher{
+ @apply lg:h-[15px] xl:h-[18px] 2xl:h-[21px] 3xl:h-[25px] lg:w-[14px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]; 
+}
+.rowakaricons{
+ @apply font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] mt-[2px] text-gray_500 w-[auto]; 
+}
+.rowcheckmark{
+ @apply font-bold mb-[1px] lg:ml-[14px] xl:ml-[17px] 2xl:ml-[20px] 3xl:ml-[24px] text-gray_500 w-[auto]; 
+}
+.rowcomputer{
+ @apply font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] mt-[4px] text-gray_500 w-[auto]; 
+}
+.columnprimarytext{
+ @apply xl:mt-[10px] 2xl:mt-[12px] 3xl:mt-[14px] lg:mt-[8px] not-italic text-gray_800 w-[auto]; 
+}
+.rowprimarytext{
+ @apply font-medium mt-[3px] text-black_900 w-[auto]; 
+}
+.columnprimarytext_one{
+ @apply lg:mt-[5px] xl:mt-[7px] 2xl:mt-[8px] 3xl:mt-[9px] not-italic text-gray_800 w-[auto]; 
+}
+.Four{
+ @apply ml-[1px] lg:mt-[12px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] not-italic text-gray_800 w-[auto]; 
+}
+.rowellipsetwentyone{
+ @apply lg:ml-[5px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] not-italic text-black_900 w-[auto]; 
+}
+.programaciónCounter_Two{
+ @apply font-bold lg:ml-[13px] xl:ml-[16px] 2xl:ml-[19px] 3xl:ml-[22px] text-black_900 w-[auto]; 
+}
+.JessRomero{
+ @apply font-bold lg:mb-[5px] xl:mb-[7px] 2xl:mb-[8px] 3xl:mb-[9px] lg:mt-[24px] xl:mt-[30px] 2xl:mt-[34px] 3xl:mt-[40px] text-black_900 w-[auto]; 
 }
 .rowinicio{
  @apply font-montserrat font-semibold text-gray_400 w-[auto]; 
