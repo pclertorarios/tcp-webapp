@@ -5,7 +5,6 @@ import {
   Row,
   Img,
   Text,
-  Input,
   List,
   Button,
   Line,
@@ -15,21 +14,31 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { useNavigate } from "react-router-dom";
 
-const DesktopEightPage = () => {
+const Inicio = () => {
   const navigate = useNavigate();
 
-  function handleNavigate15() {
-    navigate("/desktopfiftyone");
+  function handleNavigateInicio() {
+    navigate("/inicio");
   }
-  function handleNavigate16() {
-    navigate("/desktopfiftyone");
+  function handleNavigateMisTutorias() {
+    navigate("/mistutorias");
+  }
+  function handleNavigateCalendar() {
+    navigate("/calendario");
+  }
+
+  function handleNavigateRendimiento() {
+    navigate("/rendimiento");
+  }
+  function handleNavigateMisTalleres() {
+    navigate("/mistalleres");
   }
 
   return (
     <>
       <Column className="bg-white_A700 font-montserrat items-center justify-start mx-[auto] lg:pl-[34px] xl:pl-[43px] 2xl:pl-[49px] 3xl:pl-[58px] w-[100%]">
         <Row className="items-start justify-between w-[100%]">
-          <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
+        <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
             <Img
               src="images/img_d01bb442c0777d9.png"
               className="d01bb442c0777dNine"
@@ -47,37 +56,43 @@ const DesktopEightPage = () => {
               <Text className="columnu201910362upc1">
                 u201910362@upc.edu.pe
               </Text>
-              <Input
-                className="font-bold p-[0] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] placeholder:text-indigo_400 text-indigo_400 w-[100%]"
-                wrapClassName="2xl:mt-[65px] 3xl:mt-[78px] flex lg:mt-[46px] w-[100%] xl:mt-[57px]"
-                name="Group353"
-                placeholder="Inicio"
-                prefix={
-                  <Img
-                    src="images/img_menu.svg"
-                    className="ml-[2px] lg:w-[14px] lg:h-[15px] lg:mr-[12px] xl:w-[17px] xl:h-[18px] xl:mr-[16px] 2xl:w-[20px] 2xl:h-[21px] 2xl:mr-[18px] 3xl:w-[24px] 3xl:h-[25px] 3xl:mr-[21px] my-[auto]"
-                    alt="menu"
-                  />
-                }
-                variant="FillGray50"
-              ></Input>
-              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] w-[71%]">
+              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Img
+                  src="images/img_computer.svg"
+                  className="computer"
+                  alt="computer"
+                />
+                <Text className="common-pointer rowakaricons" as="h6" variant="h6"onClick={handleNavigateInicio}>
+                  Inicio
+                </Text>
+              </Row>
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_teacher.png"
                   className="computer"
                   alt="Teacher"
                 />
-                <Text className="rowcomputer" as="h6" variant="h6">
+                <Text
+                  className="common-pointer rowcomputer"
+                  as="h6"
+                  variant="h6"
+                  onClick={handleNavigateMisTutorias}
+                >
                   Mis tutorías
                 </Text>
               </Row>
-              <Row className="items-start lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] w-[66%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <div className="computer"></div>
-                <Text className="rowakaricons1" as="h6" variant="h6">
+                <Text
+                  className="common-pointer rowakaricons1"
+                  as="h6"
+                  variant="h6"
+                  onClick={handleNavigateCalendar}
+                >
                   Calendario
                 </Text>
               </Row>
-              <Row className="items-center lg:mt-[32px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] w-[76%]">
+              <Row className=" items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_checkmark.svg"
                   className="checkmark"
@@ -87,28 +102,33 @@ const DesktopEightPage = () => {
                   className="common-pointer rowcheckmark"
                   as="h6"
                   variant="h6"
-                  onClick={handleNavigate15}
+                  onClick={handleNavigateRendimiento}
                 >
                   Rendimiento
                 </Text>
               </Row>
-              <Row className="items-center lg:mt-[32px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] w-[69%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_videoconferenc.png"
                   className="computer"
                   alt="VideoConferenc"
                 />
-                <Text className="rowcomputer" as="h6" variant="h6">
+                <Text
+                  className="common-pointer rowcomputer"
+                  as="h6"
+                  variant="h6"
+                  onClick={handleNavigateMisTalleres}
+                >
                   Mis talleres
                 </Text>
               </Row>
-              <Row className="items-center justify-end ml-[auto] lg:mt-[31px] xl:mt-[39px] 2xl:mt-[44px] 3xl:mt-[52px] w-[87%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img src="images/img_map.svg" className="map" alt="map" />
-                <Text className="rowcomputer" as="h6" variant="h6">
+                <Text className="common-pointer rowcomputer" as="h6" variant="h6">
                   Guía de usuario
                 </Text>
               </Row>
-              <Row className="items-start lg:mt-[32px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] w-[38%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_computer_20X20.svg"
                   className="computer_One"
@@ -179,10 +199,7 @@ const DesktopEightPage = () => {
                       Ver mis talleres
                     </Text>
                   </Column>
-                  <Column
-                    className="common-pointer bg-gradient2  items-center justify-center mb-[1px] lg:p-[18px] xl:p-[23px] 2xl:p-[26px] 3xl:p-[31px] rounded-radius20 w-[100%]"
-                    onClick={handleNavigate16}
-                  >
+                  <Column className="common-pointer bg-gradient2  items-center justify-center mb-[1px] lg:p-[18px] xl:p-[23px] 2xl:p-[26px] 3xl:p-[31px] rounded-radius20 w-[100%]">
                     <Button
                       className="flex lg:h-[59px] xl:h-[73px] 2xl:h-[83px] 3xl:h-[99px] items-center justify-center 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] lg:w-[58px] xl:w-[72px] 2xl:w-[82px] 3xl:w-[98px]"
                       shape="icbRoundedBorder20"
@@ -544,4 +561,4 @@ const DesktopEightPage = () => {
   );
 };
 
-export default DesktopEightPage;
+export default Inicio;

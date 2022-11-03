@@ -1,9 +1,14 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 import { Stack, Img, Column, Text, SelectBox, Input, Button } from "components";
 import Footer from "components/Footer/Footer";
 
 const RegisterPage = () => {
+  const navigate = useNavigate();
+  function handleNavigateHome() {
+    navigate("/inicio");
+  }
+  
   return (
     <>
       <Stack className="bg-gray_50 font-montserrat xl:h-[1013px] 2xl:h-[1139px] 3xl:h-[1367px] lg:h-[810px] mx-[auto] pl-[1px] w-[100%]">
@@ -66,6 +71,7 @@ const RegisterPage = () => {
             shape="RoundedBorder20"
             size="xl"
             variant="FillIndigo400"
+            onClick={handleNavigateHome}
           >
             Regístrate
           </Button>
