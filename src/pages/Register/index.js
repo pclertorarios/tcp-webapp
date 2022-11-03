@@ -6,7 +6,7 @@ import Footer from "components/Footer/Footer";
 const RegisterPage = () => {
   const navigate = useNavigate();
   function handleNavigateHome() {
-    navigate("/desktopthirteen");
+    navigate("/inicio");
   }
   
   return (

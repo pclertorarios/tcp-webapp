@@ -14,7 +14,7 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { useNavigate } from "react-router-dom";
 
-const DesktopEightPage = () => {
+const Inicio = () => {
   const navigate = useNavigate();
 
   function handleNavigateInicio() {
@@ -561,4 +561,4 @@ const DesktopEightPage = () => {
   );
 };
 
-export default DesktopEightPage;
+export default Inicio;

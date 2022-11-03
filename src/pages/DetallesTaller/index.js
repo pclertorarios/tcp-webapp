@@ -3,11 +3,11 @@ import React from "react";
 import { Column, Row, Img, Text, Stack, Button, Input } from "components";
 import { useNavigate } from "react-router-dom";
 
-const DesktopThirtySevenPage = () => {
+const DetallesTaller = () => {
   const navigate = useNavigate();
   
-  function handleNavigate10() {
-    navigate("/desktopfortyeight");
+  function handleNavigateAsistencia() {
+    navigate("/asistencia");
   }
 
   function handleNavigateInicio() {
@@ -85,7 +85,7 @@ const DesktopThirtySevenPage = () => {
                   Calendario
                 </Text>
               </Row>
-              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_checkmark.svg"
                   className="checkmark"
@@ -100,7 +100,7 @@ const DesktopThirtySevenPage = () => {
                   Rendimiento
                 </Text>
               </Row>
-              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_videoconferenc.png"
                   className="computer"
@@ -220,7 +220,7 @@ const DesktopThirtySevenPage = () => {
               <Row className="items-center lg:mt-[44px] xl:mt-[56px] 2xl:mt-[63px] 3xl:mt-[75px] w-[74%]">
                 <Button
                   className="common-pointer font-bold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center text-gray_51 w-[31%]"
-                  onClick={handleNavigate10}
+                  onClick={handleNavigateAsistencia}
                   shape="RoundedBorder20"
                   size="xl"
                   variant="FillIndigo400"
@@ -252,4 +252,4 @@ const DesktopThirtySevenPage = () => {
   );
 };
 
-export default DesktopThirtySevenPage;
+export default DetallesTaller;

@@ -12,12 +12,9 @@ import {
 } from "components";
 import { useNavigate } from "react-router-dom";
 
-const DesktopThirteenPage = () => {
+const MisTutorias = () => {
   const navigate = useNavigate();
 
-  function handleNavigate12() {
-    navigate("/desktopthirtyseven");
-  }
   function handleNavigateInicio() {
     navigate("/inicio");
   }
@@ -68,7 +65,7 @@ const DesktopThirteenPage = () => {
                   Inicio
                 </Text>
               </Row>
-              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_teacher.png"
                   className="computer"
@@ -109,7 +106,7 @@ const DesktopThirteenPage = () => {
                   Rendimiento
                 </Text>
               </Row>
-              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_videoconferenc.png"
                   className="computer"
@@ -146,9 +143,9 @@ const DesktopThirteenPage = () => {
             <Column className="justify-start lg:mb-[59px] xl:mb-[73px] 2xl:mb-[83px] 3xl:mb-[99px] w-[100%]">
               <Row className="items-center w-[93%]">
                 <Text className="text-black_900 w-[auto]" as="h3" variant="h3">
-                  Mis talleres
+                  Mis tutorías
                 </Text>
-                <Stack className="lg:h-[42px] xl:h-[52px] 2xl:h-[59px] 3xl:h-[70px] lg:ml-[540px] xl:ml-[676px] 2xl:ml-[760px] 3xl:ml-[912px] w-[6%]">
+                <Stack className="lg:h-[42px] xl:h-[52px] 2xl:h-[59px] 3xl:h-[70px] lg:ml-[534px] xl:ml-[668px] 2xl:ml-[752px] 3xl:ml-[902px] w-[6%]">
                   <Button
                     className="absolute bottom-[0] flex lg:h-[37px] xl:h-[46px] 2xl:h-[52px] 3xl:h-[62px] items-center justify-center left-[0] lg:w-[36px] xl:w-[45px] 2xl:w-[51px] 3xl:w-[61px]"
                     size="mdIcn"
@@ -182,7 +179,7 @@ const DesktopThirteenPage = () => {
                 <SelectBox
                   className="font-medium lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-gray_401 tracking-ls1 w-[27%]"
                   placeholderClassName="text-gray_401"
-                  name="Group278"
+                  name="Group359"
                   placeholder="Seleccione un curso"
                   isSearchable={false}
                   isMulti={false}
@@ -197,7 +194,7 @@ const DesktopThirteenPage = () => {
                 <SelectBox
                   className="font-medium lg:ml-[24px] xl:ml-[31px] 2xl:ml-[35px] 3xl:ml-[42px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-gray_401 tracking-ls1 w-[27%]"
                   placeholderClassName="text-gray_401"
-                  name="Group280"
+                  name="Group361"
                   placeholder="Seleccione tipo de clase"
                   isSearchable={false}
                   isMulti={false}
@@ -236,8 +233,7 @@ const DesktopThirteenPage = () => {
                     </Column>
                     <Column className="items-center lg:ml-[11px] xl:ml-[14px] 2xl:ml-[16px] 3xl:ml-[19px] w-[8%]">
                       <Button
-                        className="common-pointer font-medium xl:text-[10px] 2xl:text-[12px] 3xl:text-[14px] lg:text-[8px] text-center text-white_A700 w-[100%]"
-                        onClick={handleNavigate12}
+                        className="font-medium xl:text-[10px] 2xl:text-[12px] 3xl:text-[14px] lg:text-[8px] text-center text-white_A700 w-[100%]"
                         shape="RoundedBorder15"
                         variant="FillIndigo400"
                       >
@@ -368,4 +364,4 @@ const DesktopThirteenPage = () => {
   );
 };
 
-export default DesktopThirteenPage;
+export default MisTutorias;

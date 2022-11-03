@@ -3,10 +3,10 @@ import React from "react";
 import { Column, Row, Img, Text, Stack, Button, Grid } from "components";
 import { useNavigate } from "react-router-dom";
 
-const DesktopFortyEightPage = () => {
+const Asistencia = () => {
   const navigate = useNavigate();
-  function handleNavigate1() {
-    navigate("/desktopthirtyseven");
+  function handleNavigateDetallerTaller() {
+    navigate("/detallestaller");
   }
 
   function handleNavigateInicio() {
@@ -84,7 +84,7 @@ const DesktopFortyEightPage = () => {
                   Calendario
                 </Text>
               </Row>
-              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_checkmark.svg"
                   className="checkmark"
@@ -99,7 +99,7 @@ const DesktopFortyEightPage = () => {
                   Rendimiento
                 </Text>
               </Row>
-              <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_videoconferenc.png"
                   className="computer"
@@ -234,7 +234,7 @@ const DesktopFortyEightPage = () => {
                 </Button>
                 <Button
                   className="common-pointer font-bold lg:ml-[14px] xl:ml-[18px] 2xl:ml-[21px] 3xl:ml-[25px] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-center w-[47%]"
-                  onClick={handleNavigate1}
+                  onClick={handleNavigateDetallerTaller}
                   shape="RoundedBorder20"
                   size="md"
                   variant="OutlineIndigo400"
@@ -250,4 +250,4 @@ const DesktopFortyEightPage = () => {
   );
 };
 
-export default DesktopFortyEightPage;
+export default Asistencia;

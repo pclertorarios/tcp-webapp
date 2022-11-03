@@ -12,7 +12,7 @@ import {
 } from "components";
 import { useNavigate } from "react-router-dom";
 
-const DesktopFortySevenPage = () => {
+const Calendario = () => {
   const navigate = useNavigate();
 
   function handleNavigateInicio() {
@@ -430,4 +430,4 @@ const DesktopFortySevenPage = () => {
   );
 };
 
-export default DesktopFortySevenPage;
+export default Calendario;
