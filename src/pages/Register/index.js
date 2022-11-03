@@ -36,7 +36,7 @@ const RegisterPage = () => {
           <SelectBox
             className="font-medium lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-gray_401 tracking-ls1 w-[100%]"
             placeholderClassName="text-gray_401"
-            name="Group110"
+            name="Group310"
             placeholder="Institución educativa"
             isSearchable={false}
             isMulti={false}
@@ -47,23 +47,24 @@ const RegisterPage = () => {
                 alt="arrow_down"
               />
             }
+            size="md"
           ></SelectBox>
           <Input
             className="font-medium p-[0] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] placeholder:text-gray_401 text-gray_401 tracking-ls1 w-[100%]"
             wrapClassName="2xl:mt-[17px] 3xl:mt-[20px] lg:mt-[12px] w-[100%] xl:mt-[15px]"
-            name="Group109"
+            name="Group309"
             placeholder="Correo"
           ></Input>
           <Input
             className="font-medium p-[0] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] placeholder:text-gray_401 text-gray_401 tracking-ls1 w-[100%]"
             wrapClassName="2xl:mt-[17px] 3xl:mt-[20px] lg:mt-[12px] w-[100%] xl:mt-[15px]"
-            name="Group107"
+            name="Group307"
             placeholder="Contraseña"
           ></Input>
           <Button
-            className="font-bold lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center w-[100%]"
+            className="font-bold lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center text-gray_51 w-[100%]"
             shape="RoundedBorder20"
-            size="sm"
+            size="xl"
             variant="FillIndigo400"
           >
             Regístrate

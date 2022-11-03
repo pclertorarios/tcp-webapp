@@ -11,7 +11,10 @@ const selectOptions = [
 
 const variants = { FillWhiteA700: "bg-white_A700" };
 const shapes = { RoundedBorder20: "rounded-radius20" };
-const sizes = { sm: "lg:p-[14px] xl:p-[17px] p-[20px] 3xl:p-[24px]" };
+const sizes = {
+  sm: "lg:p-[11px] xl:p-[14px] p-[16px] 3xl:p-[19px]",
+  md: "lg:p-[14px] xl:p-[17px] p-[20px] 3xl:p-[24px]",
+};
 
 const SelectBox = React.forwardRef(
   (
@@ -82,7 +85,7 @@ const SelectBox = React.forwardRef(
               ...provided,
               color: state.isSelected && "#fafafa",
               backgroundColor: state.isSelected && "#5f75da",
-              "&:hover": { backgroundColor: "#5f75da", color: "#f9f9f9" },
+              "&:hover": { backgroundColor: "#5f75da", color: "#ffffff" },
             }),
             singleValue: (provided) => ({
               ...provided,
@@ -142,7 +145,7 @@ SelectBox.propTypes = {
   value: PropTypes.string,
   shape: PropTypes.oneOf(["RoundedBorder20"]),
   variant: PropTypes.oneOf(["FillWhiteA700"]),
-  size: PropTypes.oneOf(["sm"]),
+  size: PropTypes.oneOf(["sm", "md"]),
 };
 SelectBox.defaultProps = {
   placeholder: "Select",

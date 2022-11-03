@@ -8,7 +8,10 @@ const variants = {
   FillGray50: "bg-gray_50",
 };
 const shapes = { RoundedBorder20: "rounded-radius20" };
-const sizes = { sm: "lg:p-[14px] xl:p-[17px] p-[20px] 3xl:p-[24px]" };
+const sizes = {
+  sm: "lg:p-[11px] xl:p-[14px] p-[16px] 3xl:p-[19px]",
+  md: "lg:p-[14px] xl:p-[17px] p-[20px] 3xl:p-[24px]",
+};
 
 const Input = React.forwardRef(
   (
@@ -63,7 +66,7 @@ Input.propTypes = {
   type: PropTypes.string,
   shape: PropTypes.oneOf(["RoundedBorder20"]),
   variant: PropTypes.oneOf(["FillWhiteA700", "OutlineRed200", "FillGray50"]),
-  size: PropTypes.oneOf(["sm"]),
+  size: PropTypes.oneOf(["sm", "md"]),
 };
 Input.defaultProps = {
   wrapClassName: "",
@@ -73,7 +76,7 @@ Input.defaultProps = {
   type: "text",
   shape: "RoundedBorder20",
   variant: "FillWhiteA700",
-  size: "sm",
+  size: "md",
 };
 
 export { Input };

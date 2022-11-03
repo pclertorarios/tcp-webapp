@@ -18,11 +18,11 @@ import { useNavigate } from "react-router-dom";
 const DesktopEightPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate() {
-    navigate("/desktopfifty");
+  function handleNavigate15() {
+    navigate("/desktopfiftyone");
   }
-  function handleNavigate1() {
-    navigate("/desktopfifty");
+  function handleNavigate16() {
+    navigate("/desktopfiftyone");
   }
 
   return (
@@ -32,7 +32,7 @@ const DesktopEightPage = () => {
           <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
             <Img
               src="images/img_d01bb442c0777d9.png"
-              className="lg:h-[34px] xl:h-[42px] 2xl:h-[48px] 3xl:h-[57px] w-[46%]"
+              className="d01bb442c0777dNine"
               alt="d01bb442c0777dNine"
             />
             <Img
@@ -44,13 +44,13 @@ const DesktopEightPage = () => {
               Dana Vallejos
             </Text>
             <Column className="items-center justify-start 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] w-[100%]">
-              <Text className="font-medium xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-gray_400 w-[auto]">
+              <Text className="columnu201910362upc1">
                 u201910362@upc.edu.pe
               </Text>
               <Input
                 className="font-bold p-[0] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] placeholder:text-indigo_400 text-indigo_400 w-[100%]"
                 wrapClassName="2xl:mt-[65px] 3xl:mt-[78px] flex lg:mt-[46px] w-[100%] xl:mt-[57px]"
-                name="Group141"
+                name="Group353"
                 placeholder="Inicio"
                 prefix={
                   <Img
@@ -64,30 +64,30 @@ const DesktopEightPage = () => {
               <Row className="items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] w-[71%]">
                 <Img
                   src="images/img_teacher.png"
-                  className="Teacher"
+                  className="computer"
                   alt="Teacher"
                 />
-                <Text className="rowteacher" as="h6" variant="h6">
+                <Text className="rowcomputer" as="h6" variant="h6">
                   Mis tutorías
                 </Text>
               </Row>
               <Row className="items-start lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] w-[66%]">
-                <div className="Teacher"></div>
-                <Text className="rowakaricons" as="h6" variant="h6">
+                <div className="computer"></div>
+                <Text className="rowakaricons1" as="h6" variant="h6">
                   Calendario
                 </Text>
               </Row>
               <Row className="items-center lg:mt-[32px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] w-[76%]">
                 <Img
                   src="images/img_checkmark.svg"
-                  className="lg:h-[12px] xl:h-[15px] 2xl:h-[17px] 3xl:h-[20px] mt-[1px] w-[12%]"
+                  className="checkmark"
                   alt="checkmark"
                 />
                 <Text
                   className="common-pointer rowcheckmark"
                   as="h6"
                   variant="h6"
-                  onClick={handleNavigate}
+                  onClick={handleNavigate15}
                 >
                   Rendimiento
                 </Text>
@@ -95,30 +95,26 @@ const DesktopEightPage = () => {
               <Row className="items-center lg:mt-[32px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] w-[69%]">
                 <Img
                   src="images/img_videoconferenc.png"
-                  className="Teacher"
+                  className="computer"
                   alt="VideoConferenc"
                 />
-                <Text className="rowteacher" as="h6" variant="h6">
+                <Text className="rowcomputer" as="h6" variant="h6">
                   Mis talleres
                 </Text>
               </Row>
               <Row className="items-center justify-end ml-[auto] lg:mt-[31px] xl:mt-[39px] 2xl:mt-[44px] 3xl:mt-[52px] w-[87%]">
-                <Img
-                  src="images/img_map.svg"
-                  className="lg:h-[11px] xl:h-[14px] 2xl:h-[16px] 3xl:h-[19px] w-[12%]"
-                  alt="map"
-                />
-                <Text className="rowteacher" as="h6" variant="h6">
+                <Img src="images/img_map.svg" className="map" alt="map" />
+                <Text className="rowcomputer" as="h6" variant="h6">
                   Guía de usuario
                 </Text>
               </Row>
               <Row className="items-start lg:mt-[32px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] w-[38%]">
                 <Img
-                  src="images/img_computer.svg"
-                  className="mb-[1px] Teacher"
+                  src="images/img_computer_20X20.svg"
+                  className="computer_One"
                   alt="computer"
                 />
-                <Text className="rowcomputer" as="h6" variant="h6">
+                <Text className="rowcomputer_one" as="h6" variant="h6">
                   FAQ
                 </Text>
               </Row>
@@ -149,13 +145,13 @@ const DesktopEightPage = () => {
                       variant="icbFillWhiteA7005b"
                     >
                       <Img
-                        src="images/img_group129.png"
+                        src="images/img_group341.png"
                         className="flex items-center justify-center lg:h-[30px] xl:h-[37px] 2xl:h-[42px] 3xl:h-[50px]"
-                        alt="Group129"
+                        alt="Group341"
                       />
                     </Button>
                     <Text
-                      className="font-bold leading-[normal] mb-[3px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-center text-gray_52 w-[74%]"
+                      className="font-bold leading-[normal] mb-[3px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-center text-gray_54 w-[74%]"
                       as="h6"
                       variant="h6"
                     >
@@ -176,7 +172,7 @@ const DesktopEightPage = () => {
                       />
                     </Button>
                     <Text
-                      className="font-bold leading-[normal] lg:mb-[4px] xl:mb-[6px] 2xl:mb-[7px] 3xl:mb-[8px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-center text-gray_52 w-[69%]"
+                      className="font-bold leading-[normal] lg:mb-[4px] xl:mb-[6px] 2xl:mb-[7px] 3xl:mb-[8px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-center text-gray_54 w-[69%]"
                       as="h6"
                       variant="h6"
                     >
@@ -185,7 +181,7 @@ const DesktopEightPage = () => {
                   </Column>
                   <Column
                     className="common-pointer bg-gradient2  items-center justify-center mb-[1px] lg:p-[18px] xl:p-[23px] 2xl:p-[26px] 3xl:p-[31px] rounded-radius20 w-[100%]"
-                    onClick={handleNavigate1}
+                    onClick={handleNavigate16}
                   >
                     <Button
                       className="flex lg:h-[59px] xl:h-[73px] 2xl:h-[83px] 3xl:h-[99px] items-center justify-center 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] lg:w-[58px] xl:w-[72px] 2xl:w-[82px] 3xl:w-[98px]"
@@ -196,11 +192,11 @@ const DesktopEightPage = () => {
                       <Img
                         src="images/img_videoconferenc.png"
                         className="flex items-center justify-center lg:h-[34px] xl:h-[42px] 2xl:h-[48px] 3xl:h-[57px]"
-                        alt="Group127"
+                        alt="Group339"
                       />
                     </Button>
                     <Text
-                      className="font-bold leading-[normal] lg:mb-[10px] xl:mb-[13px] 2xl:mb-[15px] 3xl:mb-[18px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-center text-gray_52 w-[96%]"
+                      className="font-bold leading-[normal] lg:mb-[10px] xl:mb-[13px] 2xl:mb-[15px] 3xl:mb-[18px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-center text-gray_54 w-[96%]"
                       as="h6"
                       variant="h6"
                     >
@@ -221,7 +217,7 @@ const DesktopEightPage = () => {
                       />
                     </Button>
                     <Text
-                      className="font-bold leading-[normal] lg:mb-[3px] xl:mb-[4px] 2xl:mb-[5px] 3xl:mb-[6px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-center text-gray_52 w-[75%]"
+                      className="font-bold leading-[normal] lg:mb-[3px] xl:mb-[4px] 2xl:mb-[5px] 3xl:mb-[6px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-center text-gray_54 w-[75%]"
                       as="h6"
                       variant="h6"
                     >
@@ -244,7 +240,10 @@ const DesktopEightPage = () => {
                           <Text className="rowprimarytext" as="h5" variant="h5">
                             Nivel de aprobación
                           </Text>
-                          <Button className="flex lg:h-[17px] xl:h-[21px] 2xl:h-[24px] 3xl:h-[28px] items-center justify-center mb-[1px] lg:w-[16px] xl:w-[20px] 2xl:w-[23px] 3xl:w-[27px]">
+                          <Button
+                            className="flex lg:h-[17px] xl:h-[21px] 2xl:h-[24px] 3xl:h-[28px] items-center justify-center mb-[1px] lg:w-[16px] xl:w-[20px] 2xl:w-[23px] 3xl:w-[27px]"
+                            size="smIcn"
+                          >
                             <Img
                               src="images/img_group2016.svg"
                               className="flex items-center justify-center"
@@ -262,7 +261,7 @@ const DesktopEightPage = () => {
                           className="absolute lg:h-[157px] xl:h-[196px] 2xl:h-[221px] 3xl:h-[265px] overflow-visible w-[100%]"
                           value="24"
                           counterClockwise
-                          name="Group147"
+                          name="Group369"
                           strokeWidth={21}
                           styles={{
                             trail: { strokeWidth: 21, stroke: "#e1e1e1" },
@@ -279,7 +278,7 @@ const DesktopEightPage = () => {
                           className="absolute lg:h-[157px] xl:h-[196px] 2xl:h-[221px] 3xl:h-[265px] overflow-visible w-[100%]"
                           value="49"
                           counterClockwise
-                          name="Group148"
+                          name="Group370"
                           strokeWidth={21}
                           styles={{
                             trail: { strokeWidth: 21, stroke: "#5f75da" },
@@ -293,7 +292,7 @@ const DesktopEightPage = () => {
                           }}
                         ></CircularProgressbar>
                         <Text
-                          className="absolute h-[max-content] inset-[0] justify-center m-[auto] text-black_900 w-[max-content]"
+                          className="SevenHundredFifty"
                           as="h4"
                           variant="h4"
                         >
@@ -314,7 +313,10 @@ const DesktopEightPage = () => {
                             >
                               Aprobación talleres
                             </Text>
-                            <Button className="flex lg:h-[17px] xl:h-[21px] 2xl:h-[24px] 3xl:h-[28px] items-center justify-center mb-[1px] lg:w-[16px] xl:w-[20px] 2xl:w-[23px] 3xl:w-[27px]">
+                            <Button
+                              className="flex lg:h-[17px] xl:h-[21px] 2xl:h-[24px] 3xl:h-[28px] items-center justify-center mb-[1px] lg:w-[16px] xl:w-[20px] 2xl:w-[23px] 3xl:w-[27px]"
+                              size="smIcn"
+                            >
                               <Img
                                 src="images/img_group2016.svg"
                                 className="flex items-center justify-center"
@@ -335,51 +337,35 @@ const DesktopEightPage = () => {
                     <Column className="items-center justify-start lg:mt-[31px] xl:mt-[39px] 2xl:mt-[44px] 3xl:mt-[52px] w-[79%]">
                       <Row className="items-end justify-evenly w-[100%]">
                         <Column className="justify-start w-[2%]">
-                          <Text
-                            className="ml-[1px] not-italic text-gray_800 w-[auto]"
-                            as="h1"
-                            variant="h1"
-                          >
+                          <Text className="Five" as="h1" variant="h1">
                             5
                           </Text>
                           <Text className="Four" as="h1" variant="h1">
                             4
                           </Text>
-                          <Text
-                            className="ml-[1px] lg:mt-[11px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] not-italic text-gray_800 w-[auto]"
-                            as="h1"
-                            variant="h1"
-                          >
+                          <Text className="Three" as="h1" variant="h1">
                             3
                           </Text>
                           <Text className="Four" as="h1" variant="h1">
                             2
                           </Text>
-                          <Text
-                            className="ml-[2px] lg:mt-[12px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] not-italic text-gray_800 w-[auto]"
-                            as="h1"
-                            variant="h1"
-                          >
+                          <Text className="One" as="h1" variant="h1">
                             1
                           </Text>
-                          <Text
-                            className="lg:mt-[14px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] not-italic text-gray_800 w-[auto]"
-                            as="h1"
-                            variant="h1"
-                          >
+                          <Text className="Zero" as="h1" variant="h1">
                             0
                           </Text>
                         </Column>
                         <Stack
                           className="bg-cover bg-repeat lg:h-[101px] xl:h-[126px] 2xl:h-[142px] 3xl:h-[170px] mb-[1px] lg:mt-[5px] xl:mt-[7px] 2xl:mt-[8px] 3xl:mt-[9px] pr-[1px] w-[96%]"
                           style={{
-                            backgroundImage: "url('images/img_group143.svg')",
+                            backgroundImage: "url('images/img_group355.svg')",
                           }}
                         >
                           <Column className="absolute bottom-[0] items-center justify-start w-[100%]">
                             <Row className="items-end justify-between w-[100%]">
                               <Img
-                                src="images/img_vector385.svg"
+                                src="images/img_vector389.svg"
                                 className="3xl:h-[103px] lg:h-[61px] xl:h-[76px] 2xl:h-[86px] w-[47%]"
                                 alt="Vector385"
                               />
@@ -391,8 +377,8 @@ const DesktopEightPage = () => {
                             </Row>
                           </Column>
                           <Img
-                            src="images/img_vector388.svg"
-                            className="absolute bottom-[0] xl:h-[101px] 2xl:h-[114px] 3xl:h-[136px] lg:h-[81px] left-[0] w-[78%]"
+                            src="images/img_vector390.svg"
+                            className="Vector390"
                             alt="Vector388"
                           />
                         </Stack>
@@ -411,7 +397,7 @@ const DesktopEightPage = () => {
                   </Column>
                 </Row>
               </Column>
-              <Line className="bg-blue_100 3xl:h-[1028px] lg:h-[609px] xl:h-[762px] 2xl:h-[857px] lg:ml-[29px] xl:ml-[36px] 2xl:ml-[41px] 3xl:ml-[49px] w-[3px]" />
+              <Line className="bg-blue_101 3xl:h-[1028px] lg:h-[609px] xl:h-[762px] 2xl:h-[857px] lg:ml-[29px] xl:ml-[36px] 2xl:ml-[41px] 3xl:ml-[49px] w-[3px]" />
               <Column className="lg:ml-[27px] xl:ml-[33px] 2xl:ml-[38px] 3xl:ml-[45px] w-[25%]">
                 <Row className="items-center justify-between ml-[1px] w-[97%]">
                   <Text
