@@ -9,8 +9,10 @@ import { Row } from "./Row";
 import { Stack } from "./Stack";
 import { Text } from "./Text";
 import { SelectBox } from "./SelectBox";
-import { Input } from "./Input";
+import { FloatingInput } from "./FloatingInput";
 import { Button } from "./Button";
+import { Slider } from "./Slider";
+import { Input } from "./Input";
 export {
   Column,
   Datepicker,
@@ -23,6 +25,8 @@ export {
   Stack,
   Text,
   SelectBox,
-  Input,
+  FloatingInput,
   Button,
+  Slider,
+  Input,
 };

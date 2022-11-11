@@ -6,14 +6,35 @@ import {
   Stack,
   Column,
   Text,
-  Input,
   Button,
   List,
   Line,
   Slider,
 } from "components";
+import { useNavigate } from "react-router-dom";
 
-const DesktopEightPage = () => {
+const DesktopEightOnePage = () => {
+  const navigate = useNavigate();
+
+  function handleNavigate6() {
+    navigate("/desktopfifteen");
+  }
+  function handleNavigate7() {
+    navigate("/desktopthirteentwo");
+  }
+  function handleNavigate8() {
+    navigate("/desktopthirteentwo");
+  }
+  function handleNavigate9() {
+    navigate("/desktopfifteen");
+  }
+  function handleNavigate10() {
+    navigate("/desktopfifteen");
+  }
+  function handleNavigate11() {
+    navigate("/desktopfifteen");
+  }
+
   const sliderRef = React.useRef();
   const [sliderState, setsliderState] = React.useState(0);
   const sliderRef1 = React.useRef();
@@ -36,9 +57,13 @@ const DesktopEightPage = () => {
                   className="d01bb442c0777dNine2"
                   alt="d01bb442c0777dNine"
                 />
-                <div className="bg-black_900_33 2xl:h-[101px] 3xl:h-[121px] lg:h-[72px] xl:h-[89px] lg:mt-[45px] xl:mt-[56px] 2xl:mt-[64px] 3xl:mt-[76px] rotate-[1deg] rounded-radius5109 w-[53%]"></div>
+                <Img
+                  src="images/img_ellipse1.png"
+                  className="2xl:h-[101px] 3xl:h-[121px] lg:h-[72px] xl:h-[89px] lg:mt-[45px] xl:mt-[56px] 2xl:mt-[64px] 3xl:mt-[76px] rotate-[1deg] rounded-radius50 w-[53%]"
+                  alt="EllipseOne"
+                />
                 <Text
-                  className="columnd01bb442c0777dnine3"
+                  className="columnd01bb442c0777dnine2"
                   as="h6"
                   variant="h6"
                 >
@@ -46,25 +71,33 @@ const DesktopEightPage = () => {
                 </Text>
                 <Column className="justify-start lg:mt-[4px] xl:mt-[6px] 2xl:mt-[7px] 3xl:mt-[8px] w-[100%]">
                   <Text className="u201910362upc">u201910362@upc.edu.pe</Text>
-                  <Input
-                    className="font-bold p-[0] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] placeholder:text-gray_800 text-gray_800 w-[100%]"
-                    wrapClassName="2xl:mt-[66px] 3xl:mt-[79px] flex lg:mt-[46px] w-[100%] xl:mt-[58px]"
-                    name="Group1433"
-                    placeholder="Inicio"
-                    prefix={
+                  <Button
+                    className="2xl:mt-[66px] 3xl:mt-[79px] flex items-center justify-center lg:mt-[46px] text-center w-[100%] xl:mt-[58px]"
+                    leftIcon={
                       <Img
-                        src="images/img_grid.svg"
-                        className="lg:w-[14px] lg:h-[15px] lg:ml-[3px] lg:mr-[12px] xl:w-[17px] xl:h-[18px] xl:ml-[4px] xl:mr-[16px] 2xl:w-[20px] 2xl:h-[21px] 2xl:ml-[5px] 2xl:mr-[18px] 3xl:w-[24px] 3xl:h-[25px] 3xl:ml-[6px] 3xl:mr-[21px] my-[auto]"
-                        alt="grid"
+                        src="images/img_menu.svg"
+                        className="text-center lg:w-[14px] lg:h-[15px] lg:mr-[12px] xl:w-[17px] xl:h-[18px] xl:mr-[16px] 2xl:w-[20px] 2xl:h-[21px] 2xl:mr-[18px] 3xl:w-[24px] 3xl:h-[25px] 3xl:mr-[21px]"
+                        alt="menu"
                       />
                     }
-                    size="md"
+                    shape="RoundedBorder20"
+                    size="lg"
                     variant="FillGray50"
-                  ></Input>
-                  <Button className="bg-transparent font-bold lg:ml-[42px] xl:ml-[53px] 2xl:ml-[60px] 3xl:ml-[72px] lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[37%]">
+                  >
+                    <div className="bg-transparent font-bold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
+                      Inicio
+                    </div>
+                  </Button>
+                  <Button
+                    className="common-pointer bg-transparent font-bold lg:ml-[42px] xl:ml-[53px] 2xl:ml-[60px] 3xl:ml-[72px] lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[37%]"
+                    onClick={handleNavigate8}
+                  >
                     Horarios
                   </Button>
-                  <Button className="bg-transparent font-bold lg:ml-[42px] xl:ml-[53px] 2xl:ml-[60px] 3xl:ml-[72px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[54%]">
+                  <Button
+                    className="common-pointer bg-transparent font-bold lg:ml-[42px] xl:ml-[53px] 2xl:ml-[60px] 3xl:ml-[72px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[54%]"
+                    onClick={handleNavigate7}
+                  >
                     Mis reservas
                   </Button>
                   <Text
@@ -84,10 +117,11 @@ const DesktopEightPage = () => {
                 </Text>
                 <Row className="absolute items-start justify-between right-[1%] top-[3%] w-[45%]">
                   <Button
-                    className="font-semibold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-white_A700 w-[34%]"
+                    className="common-pointer font-semibold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-white_A700 w-[34%]"
+                    onClick={handleNavigate6}
                     shape="RoundedBorder20"
                     size="md"
-                    variant="FillGray800"
+                    variant="FillIndigo400"
                   >
                     Nueva tutoría
                   </Button>
@@ -98,7 +132,7 @@ const DesktopEightPage = () => {
                     className="flex lg:h-[37px] xl:h-[46px] 2xl:h-[52px] 3xl:h-[62px] items-center justify-center lg:w-[36px] xl:w-[45px] 2xl:w-[51px] 3xl:w-[61px]"
                     shape="icbRoundedBorder10"
                     size="mdIcn"
-                    variant="icbFillGray800"
+                    variant="icbFillIndigo400"
                   >
                     <Img
                       src="images/img_notification.svg"
@@ -175,7 +209,8 @@ const DesktopEightPage = () => {
                 </Row>
                 <Column className="absolute bg-gradient1  items-center justify-center left-[0] lg:p-[23px] xl:p-[29px] 2xl:p-[33px] 3xl:p-[39px] rounded-radius20 top-[11%] w-[14%]">
                   <Button
-                    className="flex lg:h-[59px] xl:h-[73px] 2xl:h-[83px] 3xl:h-[99px] items-center justify-center mt-[4px] lg:w-[58px] xl:w-[72px] 2xl:w-[82px] 3xl:w-[98px]"
+                    className="common-pointer flex lg:h-[59px] xl:h-[73px] 2xl:h-[83px] 3xl:h-[99px] items-center justify-center mt-[4px] lg:w-[58px] xl:w-[72px] 2xl:w-[82px] 3xl:w-[98px]"
+                    onClick={handleNavigate9}
                     shape="icbRoundedBorder20"
                     size="xlIcn"
                     variant="icbFillWhiteA7005b"
@@ -183,7 +218,7 @@ const DesktopEightPage = () => {
                     <Img
                       src="images/img_group1463.png"
                       className="flex items-center justify-center lg:h-[30px] xl:h-[37px] 2xl:h-[42px] 3xl:h-[50px]"
-                      alt="Group1419"
+                      alt="Group1463"
                     />
                   </Button>
                   <Text className="columngroup1463" variant="body1">
@@ -207,10 +242,11 @@ const DesktopEightPage = () => {
                       </Text>
                     </Column>
                     <Button
-                      className="flex lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
+                      className="common-pointer flex lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
+                      onClick={handleNavigate11}
                       shape="icbRoundedBorder10"
                       size="mdIcn"
-                      variant="icbFillGray800"
+                      variant="icbFillIndigo400"
                     >
                       <Img
                         src="images/img_arrowright.svg"
@@ -251,7 +287,7 @@ const DesktopEightPage = () => {
                       <Img
                         src="images/img_group1461.png"
                         className="flex items-center justify-center lg:h-[34px] xl:h-[42px] 2xl:h-[48px] 3xl:h-[57px]"
-                        alt="Group1417"
+                        alt="Group1461"
                       />
                     </Button>
                     <Text className="columngroup1461" variant="body1">
@@ -313,7 +349,7 @@ const DesktopEightPage = () => {
                               className="flex lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
                               shape="icbRoundedBorder10"
                               size="mdIcn"
-                              variant="icbFillGray800"
+                              variant="icbFillIndigo400"
                             >
                               <Img
                                 src="images/img_arrowright.svg"
@@ -346,7 +382,7 @@ const DesktopEightPage = () => {
                         className="flex lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
                         shape="icbRoundedBorder10"
                         size="mdIcn"
-                        variant="icbFillGray800"
+                        variant="icbFillIndigo400"
                       >
                         <Img
                           src="images/img_arrowright.svg"
@@ -408,10 +444,11 @@ const DesktopEightPage = () => {
                         </Text>
                       </Column>
                       <Button
-                        className="flex lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
+                        className="common-pointer flex lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
+                        onClick={handleNavigate10}
                         shape="icbRoundedBorder10"
                         size="mdIcn"
-                        variant="icbFillGray800"
+                        variant="icbFillIndigo400"
                       >
                         <Img
                           src="images/img_arrowright.svg"
@@ -431,4 +468,4 @@ const DesktopEightPage = () => {
   );
 };
 
-export default DesktopEightPage;
+export default DesktopEightOnePage;

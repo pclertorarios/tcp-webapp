@@ -12,7 +12,7 @@ const selectOptions = [
 const variants = { FillWhiteA700: "bg-white_A700" };
 const shapes = { RoundedBorder20: "rounded-radius20" };
 const sizes = {
-  sm: "lg:p-[11px] xl:p-[14px] p-[16px] 3xl:p-[19px]",
+  sm: "lg:p-[10px] xl:p-[13px] p-[15px] 3xl:p-[18px]",
   md: "lg:p-[14px] xl:p-[17px] p-[20px] 3xl:p-[24px]",
 };
 

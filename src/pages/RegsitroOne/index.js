@@ -1,17 +1,15 @@
 import React from "react";
 
-import {
-  Stack,
-  Img,
-  Column,
-  Row,
-  Text,
-  SelectBox,
-  FloatingInput,
-  Button,
-} from "components";
+import { Stack, Img, Column, Row, Text, SelectBox, Input } from "components";
+import { useNavigate } from "react-router-dom";
 
-const RegsitroerrorPage = () => {
+const RegsitroOnePage = () => {
+  const navigate = useNavigate();
+
+  function handleNavigate22() {
+    navigate("/desktopeighttwo");
+  }
+
   return (
     <>
       <Stack className="bg-gray_50 font-montserrat xl:h-[1013px] 2xl:h-[1139px] 3xl:h-[1367px] lg:h-[810px] mx-[auto] pl-[1px] w-[100%]">
@@ -96,23 +94,23 @@ const RegsitroerrorPage = () => {
             alt="d01bb442c0777dNine One"
           />
           <Text
-            className="font-montserrat 3xl:mt-[104px] lg:mt-[61px] xl:mt-[77px] 2xl:mt-[87px] text-gray_900 w-[auto]"
+            className="3xl:mt-[104px] lg:mt-[61px] xl:mt-[77px] 2xl:mt-[87px] text-gray_900 w-[auto]"
             as="h3"
             variant="h3"
           >
             Iniciar sesión
           </Text>
           <Text
-            className="font-montserrat font-semibold lg:mt-[14px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] text-gray_400 w-[auto]"
+            className="font-semibold lg:mt-[14px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] text-gray_400 w-[auto]"
             as="h6"
             variant="h6"
           >
             Inicia sesión con tu correo institucional
           </Text>
           <SelectBox
-            className="font-medium font-montserrat lg:mt-[29px] xl:mt-[36px] 2xl:mt-[41px] 3xl:mt-[49px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-gray_401 tracking-ls1 w-[100%]"
+            className="font-medium lg:mt-[29px] xl:mt-[36px] 2xl:mt-[41px] 3xl:mt-[49px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-gray_401 tracking-ls1 w-[100%]"
             placeholderClassName="text-gray_401"
-            name="Group1355"
+            name="Group1503"
             placeholder="Institución educativa"
             isSearchable={false}
             isMulti={false}
@@ -125,39 +123,28 @@ const RegsitroerrorPage = () => {
             }
             size="md"
           ></SelectBox>
-          <FloatingInput
-            className="bg-transparent placeholder:bg-white_A700 border-0 font-medium font-montserrat placeholder:left-[35px] text-[20px] placeholder:text-gray_401 text-gray_401 placeholder:top-[0] top-[0] tracking-ls02 w-[100%]"
-            name="Group1358"
-            labelClasses="bg-white_A700 left-[35px] top-[0] text-gray_401"
-            focusedClasses="translate-y-[20px] scale-[1]"
-            wrapperClasses="w-[100%] mt-[17px] top-[0]"
-            labelText="Correo"
-            defaultText=""
-            variant="OutlineRed200"
-          ></FloatingInput>
-          <Text
-            className="font-medium font-roboto lg:ml-[25px] xl:ml-[32px] 2xl:ml-[36px] 3xl:ml-[43px] mt-[4px] text-red_500 tracking-ls1 w-[auto]"
-            variant="body1"
-          >
-            Correo inválido
-          </Text>
-          <FloatingInput
-            className="bg-transparent placeholder:bg-white_A700 border-0 font-medium font-montserrat placeholder:left-[35px] text-[20px] placeholder:text-gray_401 text-gray_401 placeholder:top-[0] top-[0] tracking-ls02 w-[100%]"
-            name="Group1356"
-            labelClasses="bg-white_A700 left-[35px] top-[0] text-gray_401"
-            focusedClasses="translate-y-[20px] scale-[1]"
-            wrapperClasses="w-[100%] mt-[17px] top-[0]"
-            labelText="Contraseña"
-            defaultText=""
-          ></FloatingInput>
-          <Button
-            className="font-bold font-montserrat lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center text-gray_51 w-[100%]"
-            shape="RoundedBorder20"
+          <Input
+            className="font-medium p-[0] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] placeholder:text-gray_401 text-gray_401 tracking-ls1 w-[100%]"
+            wrapClassName="2xl:mt-[17px] 3xl:mt-[20px] lg:mt-[12px] w-[100%] xl:mt-[15px]"
+            name="Group1502"
+            placeholder="Correo"
             size="lg"
-            variant="FillIndigo400"
+          ></Input>
+          <Input
+            className="font-medium p-[0] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] placeholder:text-gray_401 text-gray_401 tracking-ls1 w-[100%]"
+            wrapClassName="2xl:mt-[17px] 3xl:mt-[20px] lg:mt-[12px] w-[100%] xl:mt-[15px]"
+            name="Group1500"
+            placeholder="Contraseña"
+            size="lg"
+          ></Input>
+          <Text
+            className="common-pointer bg-indigo_400 font-bold lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:px-[24px] xl:px-[31px] 2xl:px-[35px] 3xl:px-[42px] lg:py-[12px] xl:py-[16px] 2xl:py-[18px] 3xl:py-[21px] rounded-radius20 text-gray_51 w-[537px]"
+            as="h6"
+            variant="h6"
+            onClick={handleNavigate22}
           >
             Regístrate
-          </Button>
+          </Text>
         </Column>
         <Img
           src="images/img_imagecoba4.png"
@@ -169,4 +156,4 @@ const RegsitroerrorPage = () => {
   );
 };
 
-export default RegsitroerrorPage;
+export default RegsitroOnePage;

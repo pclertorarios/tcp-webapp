@@ -3,16 +3,25 @@ import React from "react";
 import { Column, Row, Img, Text, Button, Stack, Input } from "components";
 import { useNavigate } from "react-router-dom";
 
-const DesktopThirtySevenPage = () => {
+const DesktopThirtySevenTwoPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate31() {
-    navigate("/desktopfortyeight");
+  function handleNavigate15() {
+    navigate("/desktopfortyseven");
+  }
+  function handleNavigate16() {
+    navigate("/desktopfifty");
+  }
+  function handleNavigate23() {
+    navigate("/desktopfortynineone");
+  }
+  function handleNavigate34() {
+    navigate("/desktopfortyeightone");
   }
 
   return (
     <>
-      <Column className="bg-white_A700 font-montserrat items-center justify-start mx-[auto] lg:pl-[34px] xl:pl-[42px] 2xl:pl-[48px] 3xl:pl-[57px] w-[100%]">
+      <Column className="bg-white_A700 font-montserrat items-center justify-start mx-[auto] lg:pl-[34px] xl:pl-[43px] 2xl:pl-[49px] 3xl:pl-[58px] w-[100%]">
         <Row className="items-start justify-between w-[100%]">
           <Column className="items-center justify-start lg:mt-[49px] xl:mt-[62px] 2xl:mt-[70px] 3xl:mt-[84px] w-[14%]">
             <Img
@@ -29,8 +38,8 @@ const DesktopThirtySevenPage = () => {
               Dana Vallejos
             </Text>
             <Column className="justify-start lg:mt-[4px] xl:mt-[6px] 2xl:mt-[7px] 3xl:mt-[8px] w-[100%]">
-              <Text className="columnu201910362upc">u201910362@upc.edu.pe</Text>
-              <Row className="items-center lg:ml-[16px] xl:ml-[20px] 2xl:ml-[23px] 3xl:ml-[27px] lg:mt-[59px] xl:mt-[73px] 2xl:mt-[83px] 3xl:mt-[99px] w-[43%]">
+              <Text className="u201910362upc">u201910362@upc.edu.pe</Text>
+              <Row className="items-center lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[59px] xl:mt-[73px] 2xl:mt-[83px] 3xl:mt-[99px] w-[43%]">
                 <Img
                   src="images/img_computer_1.svg"
                   className="Teacher"
@@ -40,42 +49,60 @@ const DesktopThirtySevenPage = () => {
                   Inicio
                 </Button>
               </Row>
-              <Row className="items-center lg:ml-[16px] xl:ml-[20px] 2xl:ml-[23px] 3xl:ml-[27px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[56%]">
+              <Row className="items-center lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[71%]">
                 <Img
                   src="images/img_teacher.png"
                   className="Teacher"
                   alt="Teacher"
                 />
-                <Button className="bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[65%]">
-                  Horarios
+                <Button
+                  className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[72%]"
+                  onClick={handleNavigate23}
+                >
+                  Mis tutorías
                 </Button>
               </Row>
-              <div className="lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] overflow-x-auto w-[100%]">
-                <Row className="items-center justify-between w-[100%]">
-                  <Img
-                    src="images/img_laptop.png"
-                    className="laptop2"
-                    alt="laptop"
-                  />
-                  <Row className="bg-gray_50 items-center lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
-                    <Img
-                      src="images/img_group1461.png"
-                      className="VideoConferenc2"
-                      alt="VideoConferenc"
-                    />
-                    <Text className="rowakaricons" variant="body1">
-                      Mis reservas
-                    </Text>
-                  </Row>
-                </Row>
-              </div>
+              <Row className="items-start lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] w-[66%]">
+                <div className="mb-[1px] Teacher"></div>
+                <Text
+                  className="common-pointer rowakaricons1"
+                  variant="body1"
+                  onClick={handleNavigate15}
+                >
+                  Calendario
+                </Text>
+              </Row>
+              <Row className="items-center lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[76%]">
+                <Img
+                  src="images/img_checkmark.svg"
+                  className="checkmark"
+                  alt="checkmark"
+                />
+                <Text
+                  className="common-pointer rowcheckmark"
+                  variant="body1"
+                  onClick={handleNavigate16}
+                >
+                  Rendimiento
+                </Text>
+              </Row>
+              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+                <Img
+                  src="images/img_group1461.png"
+                  className="VideoConferenc3"
+                  alt="VideoConferenc"
+                />
+                <Button className="bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] mt-[1px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-indigo_400 w-[60%]">
+                  Mis talleres
+                </Button>
+              </Row>
               <Row className="items-center justify-end ml-[auto] lg:mt-[18px] xl:mt-[23px] 2xl:mt-[26px] 3xl:mt-[31px] w-[87%]">
                 <Img src="images/img_map.svg" className="map2" alt="map" />
                 <Text className="rowmap" variant="body1">
                   Guía de usuario
                 </Text>
               </Row>
-              <Row className="items-center lg:ml-[16px] xl:ml-[20px] 2xl:ml-[23px] 3xl:ml-[27px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[38%]">
+              <Row className="items-center lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[38%]">
                 <Img
                   src="images/img_computer_20X20.svg"
                   className="Teacher"
@@ -87,7 +114,7 @@ const DesktopThirtySevenPage = () => {
               </Row>
             </Column>
           </Column>
-          <Column className="bg-gray_50 items-center justify-start lg:p-[35px] xl:p-[44px] 2xl:p-[50px] 3xl:p-[60px] rounded-bl-[80px] rounded-br-[0] rounded-tl-[80px] rounded-tr-[0] w-[83%]">
+          <Column className="bg-gray_50 items-center justify-start lg:p-[35px] xl:p-[44px] 2xl:p-[50px] 3xl:p-[60px] rounded-bl-[80px] rounded-br-[0] rounded-tl-[80px] rounded-tr-[0] w-[84%]">
             <Column className="justify-start lg:mb-[311px] xl:mb-[389px] 2xl:mb-[438px] 3xl:mb-[525px] lg:mt-[15px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] w-[97%]">
               <Row className="items-center justify-between w-[100%]">
                 <Text className="text-black_900 w-[auto]" as="h4" variant="h4">
@@ -168,7 +195,7 @@ const DesktopThirtySevenPage = () => {
               <Row className="items-center lg:mt-[44px] xl:mt-[56px] 2xl:mt-[63px] 3xl:mt-[75px] w-[74%]">
                 <Button
                   className="common-pointer font-bold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center text-gray_51 w-[31%]"
-                  onClick={handleNavigate31}
+                  onClick={handleNavigate34}
                   shape="RoundedBorder20"
                   size="lg"
                   variant="FillIndigo400"
@@ -200,4 +227,4 @@ const DesktopThirtySevenPage = () => {
   );
 };
 
-export default DesktopThirtySevenPage;
+export default DesktopThirtySevenTwoPage;

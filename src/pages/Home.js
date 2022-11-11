@@ -15,6 +15,30 @@ const Home = () => {
           <Link to="/">Register</Link>
         </li>
         <li>
+          <Link to="/desktopone">DesktopOne</Link>
+        </li>
+        <li>
+          <Link to="/desktopeightone">DesktopEightOne</Link>
+        </li>
+        <li>
+          <Link to="/desktopthirteentwo">DesktopThirteenTwo</Link>
+        </li>
+        <li>
+          <Link to="/desktopfifteen">DesktopFifteen</Link>
+        </li>
+        <li>
+          <Link to="/desktoponeone">DesktopOneOne</Link>
+        </li>
+        <li>
+          <Link to="/desktopeight">DesktopEight</Link>
+        </li>
+        <li>
+          <Link to="/desktopseventeen">DesktopSeventeen</Link>
+        </li>
+        <li>
+          <Link to="/desktopthirtysevenone">DesktopThirtySevenOne</Link>
+        </li>
+        <li>
           <Link to="/regsitroerror">Regsitroerror</Link>
         </li>
         <li>
@@ -24,6 +48,27 @@ const Home = () => {
           <Link to="/desktopthirteen">DesktopThirteen</Link>
         </li>
         <li>
+          <Link to="/desktopthirtyseventwo">DesktopThirtySevenTwo</Link>
+        </li>
+        <li>
+          <Link to="/desktopfortyeightone">DesktopFortyEightOne</Link>
+        </li>
+        <li>
+          <Link to="/desktopfortynineone">DesktopFortyNineOne</Link>
+        </li>
+        <li>
+          <Link to="/desktopfifty">DesktopFifty</Link>
+        </li>
+        <li>
+          <Link to="/regsitroone">RegsitroOne</Link>
+        </li>
+        <li>
+          <Link to="/desktopeighttwo">DesktopEightTwo</Link>
+        </li>
+        <li>
+          <Link to="/desktopthirteenone">DesktopThirteenOne</Link>
+        </li>
+        <li>
           <Link to="/desktopthirtyseven">DesktopThirtySeven</Link>
         </li>
         <li>
@@ -31,12 +76,6 @@ const Home = () => {
         </li>
         <li>
           <Link to="/desktopfortynine">DesktopFortyNine</Link>
-        </li>
-        <li>
-          <Link to="/desktopfifty">DesktopFifty</Link>
-        </li>
-        <li>
-          <Link to="/desktopeight">DesktopEight</Link>
         </li>
         <li>
           <Link to="/desktopfiftyone">DesktopFiftyOne</Link>

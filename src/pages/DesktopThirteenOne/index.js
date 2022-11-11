@@ -12,14 +12,11 @@ import {
 } from "components";
 import { useNavigate } from "react-router-dom";
 
-const DesktopThirteenPage = () => {
+const DesktopThirteenOnePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate() {
-    navigate("/desktopeightone");
-  }
-  function handleNavigate35() {
-    navigate("/desktopthirtyseventwo");
+  function handleNavigate24() {
+    navigate("/desktopthirtyseven");
   }
 
   return (
@@ -48,10 +45,7 @@ const DesktopThirteenPage = () => {
                   className="Teacher"
                   alt="computer"
                 />
-                <Button
-                  className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[55%]"
-                  onClick={handleNavigate}
-                >
+                <Button className="bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[55%]">
                   Inicio
                 </Button>
               </Row>
@@ -147,7 +141,7 @@ const DesktopThirteenPage = () => {
                 <SelectBox
                   className="font-medium lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-gray_401 tracking-ls1 w-[27%]"
                   placeholderClassName="text-gray_401"
-                  name="Group1330"
+                  name="Group1378"
                   placeholder="Seleccione un curso"
                   isSearchable={false}
                   isMulti={false}
@@ -162,7 +156,7 @@ const DesktopThirteenPage = () => {
                 <SelectBox
                   className="font-medium lg:ml-[24px] xl:ml-[31px] 2xl:ml-[35px] 3xl:ml-[42px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-gray_401 tracking-ls1 w-[27%]"
                   placeholderClassName="text-gray_401"
-                  name="Group1332"
+                  name="Group1380"
                   placeholder="Seleccione tipo de clase"
                   isSearchable={false}
                   isMulti={false}
@@ -202,7 +196,7 @@ const DesktopThirteenPage = () => {
                     <Column className="items-center lg:ml-[108px] xl:ml-[136px] 2xl:ml-[153px] 3xl:ml-[183px] w-[8%]">
                       <Button
                         className="common-pointer font-medium xl:text-[10px] 2xl:text-[12px] 3xl:text-[14px] lg:text-[8px] text-center text-white_A700 w-[100%]"
-                        onClick={handleNavigate35}
+                        onClick={handleNavigate24}
                         shape="RoundedBorder15"
                         size="sm"
                         variant="FillIndigo400"
@@ -339,4 +333,4 @@ const DesktopThirteenPage = () => {
   );
 };
 
-export default DesktopThirteenPage;
+export default DesktopThirteenOnePage;

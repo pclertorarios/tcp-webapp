@@ -3,11 +3,11 @@ import React from "react";
 import { Column, Row, Img, Text, Button, Stack, List } from "components";
 import { useNavigate } from "react-router-dom";
 
-const DesktopFortyEightPage = () => {
+const DesktopFortyEightOnePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate28() {
-    navigate("/desktopthirtyseven");
+  function handleNavigate33() {
+    navigate("/desktopthirtyseventwo");
   }
 
   return (
@@ -203,7 +203,7 @@ const DesktopFortyEightPage = () => {
                 </Button>
                 <Button
                   className="common-pointer font-bold lg:ml-[14px] xl:ml-[18px] 2xl:ml-[21px] 3xl:ml-[25px] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-center w-[47%]"
-                  onClick={handleNavigate28}
+                  onClick={handleNavigate33}
                   shape="RoundedBorder20"
                   size="md"
                   variant="OutlineIndigo4001_2"
@@ -219,4 +219,4 @@ const DesktopFortyEightPage = () => {
   );
 };
 
-export default DesktopFortyEightPage;
+export default DesktopFortyEightOnePage;

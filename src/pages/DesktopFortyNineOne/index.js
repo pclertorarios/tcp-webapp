@@ -12,14 +12,17 @@ import {
 } from "components";
 import { useNavigate } from "react-router-dom";
 
-const DesktopThirteenPage = () => {
+const DesktopFortyNineOnePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate() {
-    navigate("/desktopeightone");
+  function handleNavigate19() {
+    navigate("/desktopfortyseven");
   }
-  function handleNavigate35() {
-    navigate("/desktopthirtyseventwo");
+  function handleNavigate20() {
+    navigate("/desktopfifty");
+  }
+  function handleNavigate21() {
+    navigate("/desktopthirteen");
   }
 
   return (
@@ -48,26 +51,27 @@ const DesktopThirteenPage = () => {
                   className="Teacher"
                   alt="computer"
                 />
-                <Button
-                  className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[55%]"
-                  onClick={handleNavigate}
-                >
+                <Button className="bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[55%]">
                   Inicio
                 </Button>
               </Row>
-              <Row className="items-center lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[71%]">
+              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
                 <Img
                   src="images/img_teacher.png"
-                  className="Teacher"
+                  className="VideoConferenc3"
                   alt="Teacher"
                 />
-                <Button className="bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[72%]">
+                <Text className="rowakaricons" variant="body1">
                   Mis tutorías
-                </Button>
+                </Text>
               </Row>
-              <Row className="items-start lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] w-[66%]">
+              <Row className="items-start lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] w-[66%]">
                 <div className="mb-[1px] Teacher"></div>
-                <Text className="rowakaricons1" variant="body1">
+                <Text
+                  className="common-pointer rowakaricons1"
+                  variant="body1"
+                  onClick={handleNavigate19}
+                >
                   Calendario
                 </Text>
               </Row>
@@ -77,21 +81,29 @@ const DesktopThirteenPage = () => {
                   className="checkmark"
                   alt="checkmark"
                 />
-                <Text className="rowcheckmark" variant="body1">
+                <Text
+                  className="common-pointer rowcheckmark"
+                  variant="body1"
+                  onClick={handleNavigate20}
+                >
                   Rendimiento
                 </Text>
               </Row>
-              <Row className="bg-gray_50 items-center lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:p-[12px] xl:p-[15px] 2xl:p-[17px] 3xl:p-[20px] rounded-radius20 w-[100%]">
+              <Row className="items-center lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[69%]">
                 <Img
                   src="images/img_group1461.png"
-                  className="VideoConferenc3"
+                  className="Teacher"
                   alt="VideoConferenc"
                 />
-                <Button className="bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] mt-[1px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-indigo_400 w-[60%]">
+                <Text
+                  className="common-pointer rowmap"
+                  variant="body1"
+                  onClick={handleNavigate21}
+                >
                   Mis talleres
-                </Button>
+                </Text>
               </Row>
-              <Row className="items-center justify-end ml-[auto] lg:mt-[18px] xl:mt-[23px] 2xl:mt-[26px] 3xl:mt-[31px] w-[87%]">
+              <Row className="items-center justify-end ml-[auto] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] w-[87%]">
                 <Img src="images/img_map.svg" className="map2" alt="map" />
                 <Text className="rowmap" variant="body1">
                   Guía de usuario
@@ -113,9 +125,9 @@ const DesktopThirteenPage = () => {
             <Column className="justify-start lg:mb-[59px] xl:mb-[73px] 2xl:mb-[83px] 3xl:mb-[99px] w-[100%]">
               <Row className="items-center w-[93%]">
                 <Text className="text-black_900 w-[auto]" as="h4" variant="h4">
-                  Mis talleres
+                  Mis tutorías
                 </Text>
-                <Stack className="lg:h-[42px] xl:h-[52px] 2xl:h-[59px] 3xl:h-[70px] lg:ml-[540px] xl:ml-[676px] 2xl:ml-[760px] 3xl:ml-[912px] w-[6%]">
+                <Stack className="lg:h-[42px] xl:h-[52px] 2xl:h-[59px] 3xl:h-[70px] lg:ml-[534px] xl:ml-[668px] 2xl:ml-[752px] 3xl:ml-[902px] w-[6%]">
                   <Button
                     className="absolute bottom-[0] flex lg:h-[37px] xl:h-[46px] 2xl:h-[52px] 3xl:h-[62px] items-center justify-center left-[0] lg:w-[36px] xl:w-[45px] 2xl:w-[51px] 3xl:w-[61px]"
                     shape="icbRoundedBorder10"
@@ -147,7 +159,7 @@ const DesktopThirteenPage = () => {
                 <SelectBox
                   className="font-medium lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-gray_401 tracking-ls1 w-[27%]"
                   placeholderClassName="text-gray_401"
-                  name="Group1330"
+                  name="Group1446"
                   placeholder="Seleccione un curso"
                   isSearchable={false}
                   isMulti={false}
@@ -162,7 +174,7 @@ const DesktopThirteenPage = () => {
                 <SelectBox
                   className="font-medium lg:ml-[24px] xl:ml-[31px] 2xl:ml-[35px] 3xl:ml-[42px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-gray_401 tracking-ls1 w-[27%]"
                   placeholderClassName="text-gray_401"
-                  name="Group1332"
+                  name="Group1448"
                   placeholder="Seleccione tipo de clase"
                   isSearchable={false}
                   isMulti={false}
@@ -201,8 +213,7 @@ const DesktopThirteenPage = () => {
                     </Column>
                     <Column className="items-center lg:ml-[108px] xl:ml-[136px] 2xl:ml-[153px] 3xl:ml-[183px] w-[8%]">
                       <Button
-                        className="common-pointer font-medium xl:text-[10px] 2xl:text-[12px] 3xl:text-[14px] lg:text-[8px] text-center text-white_A700 w-[100%]"
-                        onClick={handleNavigate35}
+                        className="font-medium xl:text-[10px] 2xl:text-[12px] 3xl:text-[14px] lg:text-[8px] text-center text-white_A700 w-[100%]"
                         shape="RoundedBorder15"
                         size="sm"
                         variant="FillIndigo400"
@@ -339,4 +350,4 @@ const DesktopThirteenPage = () => {
   );
 };
 
-export default DesktopThirteenPage;
+export default DesktopFortyNineOnePage;
