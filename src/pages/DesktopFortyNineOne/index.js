@@ -15,13 +15,13 @@ import { useNavigate } from "react-router-dom";
 const DesktopFortyNineOnePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate19() {
+  function handleNavigate23() {
     navigate("/desktopfortyseven");
   }
-  function handleNavigate20() {
+  function handleNavigate24() {
     navigate("/desktopfifty");
   }
-  function handleNavigate21() {
+  function handleNavigate25() {
     navigate("/desktopthirteen");
   }
 
@@ -70,7 +70,7 @@ const DesktopFortyNineOnePage = () => {
                 <Text
                   className="common-pointer rowakaricons1"
                   variant="body1"
-                  onClick={handleNavigate19}
+                  onClick={handleNavigate23}
                 >
                   Calendario
                 </Text>
@@ -84,7 +84,7 @@ const DesktopFortyNineOnePage = () => {
                 <Text
                   className="common-pointer rowcheckmark"
                   variant="body1"
-                  onClick={handleNavigate20}
+                  onClick={handleNavigate24}
                 >
                   Rendimiento
                 </Text>
@@ -98,7 +98,7 @@ const DesktopFortyNineOnePage = () => {
                 <Text
                   className="common-pointer rowmap"
                   variant="body1"
-                  onClick={handleNavigate21}
+                  onClick={handleNavigate25}
                 >
                   Mis talleres
                 </Text>

@@ -6,16 +6,16 @@ import { useNavigate } from "react-router-dom";
 const DesktopThirtySevenTwoPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate15() {
+  function handleNavigate19() {
     navigate("/desktopfortyseven");
   }
-  function handleNavigate16() {
+  function handleNavigate20() {
     navigate("/desktopfifty");
   }
-  function handleNavigate23() {
+  function handleNavigate27() {
     navigate("/desktopfortynineone");
   }
-  function handleNavigate34() {
+  function handleNavigate38() {
     navigate("/desktopfortyeightone");
   }
 
@@ -57,7 +57,7 @@ const DesktopThirtySevenTwoPage = () => {
                 />
                 <Button
                   className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[72%]"
-                  onClick={handleNavigate23}
+                  onClick={handleNavigate27}
                 >
                   Mis tutorías
                 </Button>
@@ -67,7 +67,7 @@ const DesktopThirtySevenTwoPage = () => {
                 <Text
                   className="common-pointer rowakaricons1"
                   variant="body1"
-                  onClick={handleNavigate15}
+                  onClick={handleNavigate19}
                 >
                   Calendario
                 </Text>
@@ -81,7 +81,7 @@ const DesktopThirtySevenTwoPage = () => {
                 <Text
                   className="common-pointer rowcheckmark"
                   variant="body1"
-                  onClick={handleNavigate16}
+                  onClick={handleNavigate20}
                 >
                   Rendimiento
                 </Text>
@@ -195,7 +195,7 @@ const DesktopThirtySevenTwoPage = () => {
               <Row className="items-center lg:mt-[44px] xl:mt-[56px] 2xl:mt-[63px] 3xl:mt-[75px] w-[74%]">
                 <Button
                   className="common-pointer font-bold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center text-gray_51 w-[31%]"
-                  onClick={handleNavigate34}
+                  onClick={handleNavigate38}
                   shape="RoundedBorder20"
                   size="lg"
                   variant="FillIndigo400"

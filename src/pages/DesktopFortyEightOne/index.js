@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const DesktopFortyEightOnePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate33() {
+  function handleNavigate37() {
     navigate("/desktopthirtyseventwo");
   }
 
@@ -203,7 +203,7 @@ const DesktopFortyEightOnePage = () => {
                 </Button>
                 <Button
                   className="common-pointer font-bold lg:ml-[14px] xl:ml-[18px] 2xl:ml-[21px] 3xl:ml-[25px] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-center w-[47%]"
-                  onClick={handleNavigate33}
+                  onClick={handleNavigate37}
                   shape="RoundedBorder20"
                   size="md"
                   variant="OutlineIndigo400_1"

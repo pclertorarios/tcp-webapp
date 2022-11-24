@@ -16,22 +16,22 @@ import { useNavigate } from "react-router-dom";
 const DesktopEightOnePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate6() {
-    navigate("/desktopfifteen");
-  }
-  function handleNavigate7() {
-    navigate("/desktopthirteentwo");
-  }
-  function handleNavigate8() {
-    navigate("/desktopthirteentwo");
-  }
-  function handleNavigate9() {
-    navigate("/desktopfifteen");
-  }
   function handleNavigate10() {
     navigate("/desktopfifteen");
   }
   function handleNavigate11() {
+    navigate("/desktopthirteentwo");
+  }
+  function handleNavigate12() {
+    navigate("/desktopthirteentwo");
+  }
+  function handleNavigate13() {
+    navigate("/desktopfifteen");
+  }
+  function handleNavigate14() {
+    navigate("/desktopfifteen");
+  }
+  function handleNavigate15() {
     navigate("/desktopfifteen");
   }
 
@@ -90,13 +90,13 @@ const DesktopEightOnePage = () => {
                   </Button>
                   <Button
                     className="common-pointer bg-transparent font-bold lg:ml-[42px] xl:ml-[53px] 2xl:ml-[60px] 3xl:ml-[72px] lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[37%]"
-                    onClick={handleNavigate8}
+                    onClick={handleNavigate12}
                   >
                     Horarios
                   </Button>
                   <Button
                     className="common-pointer bg-transparent font-bold lg:ml-[42px] xl:ml-[53px] 2xl:ml-[60px] 3xl:ml-[72px] lg:mt-[30px] xl:mt-[38px] 2xl:mt-[43px] 3xl:mt-[51px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[54%]"
-                    onClick={handleNavigate7}
+                    onClick={handleNavigate11}
                   >
                     Mis reservas
                   </Button>
@@ -118,7 +118,7 @@ const DesktopEightOnePage = () => {
                 <Row className="absolute items-start justify-between right-[1%] top-[3%] w-[45%]">
                   <Button
                     className="common-pointer font-semibold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-white_A700 w-[34%]"
-                    onClick={handleNavigate6}
+                    onClick={handleNavigate10}
                     shape="RoundedBorder20"
                     size="md"
                     variant="FillIndigo400"
@@ -210,7 +210,7 @@ const DesktopEightOnePage = () => {
                 <Column className="absolute bg-gradient1  items-center justify-center left-[0] lg:p-[23px] xl:p-[29px] 2xl:p-[33px] 3xl:p-[39px] rounded-radius20 top-[11%] w-[14%]">
                   <Button
                     className="common-pointer flex lg:h-[59px] xl:h-[73px] 2xl:h-[83px] 3xl:h-[99px] items-center justify-center mt-[4px] lg:w-[58px] xl:w-[72px] 2xl:w-[82px] 3xl:w-[98px]"
-                    onClick={handleNavigate9}
+                    onClick={handleNavigate13}
                     shape="icbRoundedBorder20"
                     size="xlIcn"
                     variant="icbFillWhiteA7005b"
@@ -243,7 +243,7 @@ const DesktopEightOnePage = () => {
                     </Column>
                     <Button
                       className="common-pointer flex lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
-                      onClick={handleNavigate11}
+                      onClick={handleNavigate15}
                       shape="icbRoundedBorder10"
                       size="mdIcn"
                       variant="icbFillIndigo400"
@@ -445,7 +445,7 @@ const DesktopEightOnePage = () => {
                       </Column>
                       <Button
                         className="common-pointer flex lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] items-center justify-center lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
-                        onClick={handleNavigate10}
+                        onClick={handleNavigate14}
                         shape="icbRoundedBorder10"
                         size="mdIcn"
                         variant="icbFillIndigo400"

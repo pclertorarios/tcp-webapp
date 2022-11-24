@@ -3,8 +3,15 @@ import React from "react";
 import { Column, Row, Img, Text, Button, Stack, Line, List } from "components";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { useNavigate } from "react-router-dom";
 
 const DesktopFiftyOnePage = () => {
+  const navigate = useNavigate();
+
+  function handleNavigate3() {
+    navigate("/");
+  }
+
   return (
     <>
       <Column className="bg-white_A700 font-montserrat items-center justify-start mx-[auto] lg:pl-[34px] xl:pl-[43px] 2xl:pl-[49px] 3xl:pl-[58px] w-[100%]">
@@ -25,7 +32,10 @@ const DesktopFiftyOnePage = () => {
             </Text>
             <Column className="justify-start lg:mt-[4px] xl:mt-[6px] 2xl:mt-[7px] 3xl:mt-[8px] w-[100%]">
               <Text className="u201910362upc">u201910362@upc.edu.pe</Text>
-              <Row className="items-center lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[59px] xl:mt-[73px] 2xl:mt-[83px] 3xl:mt-[99px] w-[43%]">
+              <Row
+                className="common-pointer items-center lg:ml-[15px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[59px] xl:mt-[73px] 2xl:mt-[83px] 3xl:mt-[99px] w-[43%]"
+                onClick={handleNavigate3}
+              >
                 <Img
                   src="images/img_computer_1.svg"
                   className="Teacher"

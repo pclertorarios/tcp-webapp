@@ -8,22 +8,22 @@ import { useNavigate } from "react-router-dom";
 const DesktopEightTwoPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate12() {
+  function handleNavigate16() {
     navigate("/desktopfortynine");
-  }
-  function handleNavigate13() {
-    navigate("/desktopfiftyone");
-  }
-  function handleNavigate14() {
-    navigate("/desktopthirteenone");
   }
   function handleNavigate17() {
-    navigate("/desktopfortynine");
+    navigate("/desktopfiftyone");
   }
   function handleNavigate18() {
     navigate("/desktopthirteenone");
   }
-  function handleNavigate36() {
+  function handleNavigate21() {
+    navigate("/desktopfortynine");
+  }
+  function handleNavigate22() {
+    navigate("/desktopthirteenone");
+  }
+  function handleNavigate40() {
     navigate("/desktopfiftyone");
   }
 
@@ -74,7 +74,7 @@ const DesktopEightTwoPage = () => {
                 />
                 <Button
                   className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[72%]"
-                  onClick={handleNavigate12}
+                  onClick={handleNavigate16}
                 >
                   Mis tutorías
                 </Button>
@@ -94,7 +94,7 @@ const DesktopEightTwoPage = () => {
                 <Text
                   className="common-pointer rowcheckmark"
                   variant="body1"
-                  onClick={handleNavigate13}
+                  onClick={handleNavigate17}
                 >
                   Rendimiento
                 </Text>
@@ -108,7 +108,7 @@ const DesktopEightTwoPage = () => {
                 <Text
                   className="common-pointer rowmap"
                   variant="body1"
-                  onClick={handleNavigate14}
+                  onClick={handleNavigate18}
                 >
                   Mis talleres
                 </Text>
@@ -149,7 +149,7 @@ const DesktopEightTwoPage = () => {
                 >
                   <Column
                     className="common-pointer bg-gradient1  items-center justify-center mb-[1px] lg:p-[23px] xl:p-[29px] 2xl:p-[33px] 3xl:p-[39px] rounded-radius20 w-[100%]"
-                    onClick={handleNavigate17}
+                    onClick={handleNavigate21}
                   >
                     <Button
                       className="flex lg:h-[59px] xl:h-[73px] 2xl:h-[83px] 3xl:h-[99px] items-center justify-center mt-[4px] lg:w-[58px] xl:w-[72px] 2xl:w-[82px] 3xl:w-[98px]"
@@ -169,7 +169,7 @@ const DesktopEightTwoPage = () => {
                   </Column>
                   <Column
                     className="common-pointer listcomputer"
-                    onClick={handleNavigate18}
+                    onClick={handleNavigate22}
                   >
                     <Button
                       className="flex lg:h-[59px] xl:h-[73px] 2xl:h-[83px] 3xl:h-[99px] items-center justify-center lg:mt-[4px] xl:mt-[6px] 2xl:mt-[7px] 3xl:mt-[8px] lg:w-[58px] xl:w-[72px] 2xl:w-[82px] 3xl:w-[98px]"
@@ -189,7 +189,7 @@ const DesktopEightTwoPage = () => {
                   </Column>
                   <Column
                     className="common-pointer bg-gradient2  items-center justify-center mb-[1px] lg:p-[18px] xl:p-[23px] 2xl:p-[26px] 3xl:p-[31px] rounded-radius20 w-[100%]"
-                    onClick={handleNavigate36}
+                    onClick={handleNavigate40}
                   >
                     <Button
                       className="flex lg:h-[59px] xl:h-[73px] 2xl:h-[83px] 3xl:h-[99px] items-center justify-center 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] lg:w-[58px] xl:w-[72px] 2xl:w-[82px] 3xl:w-[98px]"

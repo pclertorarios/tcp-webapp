@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const DesktopThirtySevenPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate31() {
+  function handleNavigate35() {
     navigate("/desktopfortyeight");
   }
 
@@ -168,7 +168,7 @@ const DesktopThirtySevenPage = () => {
               <Row className="items-center lg:mt-[44px] xl:mt-[56px] 2xl:mt-[63px] 3xl:mt-[75px] w-[74%]">
                 <Button
                   className="common-pointer font-bold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center text-gray_51 w-[31%]"
-                  onClick={handleNavigate31}
+                  onClick={handleNavigate35}
                   shape="RoundedBorder20"
                   size="lg"
                   variant="FillIndigo400"

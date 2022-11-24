@@ -15,13 +15,13 @@ import { useNavigate } from "react-router-dom";
 const DesktopFortySevenPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate25() {
+  function handleNavigate29() {
     navigate("/desktopfortynineone");
   }
-  function handleNavigate26() {
+  function handleNavigate30() {
     navigate("/desktopfifty");
   }
-  function handleNavigate27() {
+  function handleNavigate31() {
     navigate("/desktopthirteen");
   }
 
@@ -63,7 +63,7 @@ const DesktopFortySevenPage = () => {
                 />
                 <Button
                   className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[72%]"
-                  onClick={handleNavigate25}
+                  onClick={handleNavigate29}
                 >
                   Mis tutorías
                 </Button>
@@ -83,7 +83,7 @@ const DesktopFortySevenPage = () => {
                 <Text
                   className="common-pointer rowcheckmark"
                   variant="body1"
-                  onClick={handleNavigate26}
+                  onClick={handleNavigate30}
                 >
                   Rendimiento
                 </Text>
@@ -97,7 +97,7 @@ const DesktopFortySevenPage = () => {
                 <Text
                   className="common-pointer rowmap"
                   variant="body1"
-                  onClick={handleNavigate27}
+                  onClick={handleNavigate31}
                 >
                   Mis talleres
                 </Text>

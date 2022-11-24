@@ -8,13 +8,22 @@ import { useNavigate } from "react-router-dom";
 const DesktopFiftyPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate29() {
+  function handleNavigate() {
+    navigate("/desktopseventeen");
+  }
+  function handleNavigate1() {
+    navigate("/desktopfiftyone");
+  }
+  function handleNavigate2() {
+    navigate("/");
+  }
+  function handleNavigate33() {
     navigate("/desktopfortyseven");
   }
-  function handleNavigate30() {
+  function handleNavigate34() {
     navigate("/desktopthirteen");
   }
-  function handleNavigate32() {
+  function handleNavigate36() {
     navigate("/desktopfortynineone");
   }
 
@@ -46,7 +55,10 @@ const DesktopFiftyPage = () => {
                   className="Teacher"
                   alt="computer"
                 />
-                <Button className="bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[55%]">
+                <Button
+                  className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[55%]"
+                  onClick={handleNavigate2}
+                >
                   Inicio
                 </Button>
               </Row>
@@ -58,7 +70,7 @@ const DesktopFiftyPage = () => {
                 />
                 <Button
                   className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[72%]"
-                  onClick={handleNavigate32}
+                  onClick={handleNavigate36}
                 >
                   Mis tutorías
                 </Button>
@@ -68,13 +80,14 @@ const DesktopFiftyPage = () => {
                 <Text
                   className="common-pointer rowakaricons1"
                   variant="body1"
-                  onClick={handleNavigate29}
+                  onClick={handleNavigate33}
                 >
                   Calendario
                 </Text>
               </Row>
               <Button
                 className="2xl:mt-[25px] 3xl:mt-[30px] flex items-center justify-center lg:mt-[17px] text-center w-[100%] xl:mt-[22px]"
+                onClick={handleNavigate1}
                 leftIcon={
                   <Img
                     src="images/img_vector.svg"
@@ -86,11 +99,14 @@ const DesktopFiftyPage = () => {
                 size="lg"
                 variant="FillGray50"
               >
-                <div className="bg-transparent font-bold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
+                <div className="common-pointer bg-transparent font-bold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
                   Rendimiento
                 </div>
               </Button>
-              <Row className="items-center lg:mt-[18px] xl:mt-[23px] 2xl:mt-[26px] 3xl:mt-[31px] w-[69%]">
+              <Row
+                className="common-pointer items-center lg:mt-[18px] xl:mt-[23px] 2xl:mt-[26px] 3xl:mt-[31px] w-[69%]"
+                onClick={handleNavigate}
+              >
                 <Img
                   src="images/img_group1461.png"
                   className="Teacher"
@@ -99,7 +115,7 @@ const DesktopFiftyPage = () => {
                 <Text
                   className="common-pointer rowmap"
                   variant="body1"
-                  onClick={handleNavigate30}
+                  onClick={handleNavigate34}
                 >
                   Mis talleres
                 </Text>

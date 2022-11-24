@@ -15,10 +15,10 @@ import { useNavigate } from "react-router-dom";
 const DesktopThirteenPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate() {
+  function handleNavigate4() {
     navigate("/");
   }
-  function handleNavigate35() {
+  function handleNavigate39() {
     navigate("/desktopthirtyseventwo");
   }
 
@@ -50,7 +50,7 @@ const DesktopThirteenPage = () => {
                 />
                 <Button
                   className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[55%]"
-                  onClick={handleNavigate}
+                  onClick={handleNavigate4}
                 >
                   Inicio
                 </Button>
@@ -202,7 +202,7 @@ const DesktopThirteenPage = () => {
                     <Column className="items-center lg:ml-[108px] xl:ml-[136px] 2xl:ml-[153px] 3xl:ml-[183px] w-[8%]">
                       <Button
                         className="common-pointer font-medium xl:text-[10px] 2xl:text-[12px] 3xl:text-[14px] lg:text-[8px] text-center text-white_A700 w-[100%]"
-                        onClick={handleNavigate35}
+                        onClick={handleNavigate39}
                         shape="RoundedBorder15"
                         size="sm"
                         variant="FillIndigo400"

@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const RegsitroOnePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate22() {
+  function handleNavigate26() {
     navigate("/desktopeighttwo");
   }
 
@@ -145,7 +145,7 @@ const RegsitroOnePage = () => {
             className="common-pointer bg-indigo_400 font-bold lg:mt-[29px] xl:mt-[37px] 2xl:mt-[42px] 3xl:mt-[50px] lg:px-[24px] xl:px-[31px] 2xl:px-[35px] 3xl:px-[42px] lg:py-[12px] xl:py-[16px] 2xl:py-[18px] 3xl:py-[21px] rounded-radius20 text-gray_51 w-[537px]"
             as="h6"
             variant="h6"
-            onClick={handleNavigate22}
+            onClick={handleNavigate26}
           >
             Regístrate
           </Text>

@@ -15,7 +15,7 @@ import { useNavigate } from "react-router-dom";
 const DesktopThirteenOnePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate24() {
+  function handleNavigate28() {
     navigate("/desktopthirtyseven");
   }
 
@@ -196,7 +196,7 @@ const DesktopThirteenOnePage = () => {
                     <Column className="items-center lg:ml-[108px] xl:ml-[136px] 2xl:ml-[153px] 3xl:ml-[183px] w-[8%]">
                       <Button
                         className="common-pointer font-medium xl:text-[10px] 2xl:text-[12px] 3xl:text-[14px] lg:text-[8px] text-center text-white_A700 w-[100%]"
-                        onClick={handleNavigate24}
+                        onClick={handleNavigate28}
                         shape="RoundedBorder15"
                         size="sm"
                         variant="FillIndigo400"

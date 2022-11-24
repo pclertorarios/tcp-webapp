@@ -15,13 +15,13 @@ import { useNavigate } from "react-router-dom";
 const DesktopFifteenPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate1() {
+  function handleNavigate5() {
     navigate("/");
   }
-  function handleNavigate2() {
+  function handleNavigate6() {
     navigate("/desktopthirteentwo");
   }
-  function handleNavigate3() {
+  function handleNavigate7() {
     navigate("/");
   }
 
@@ -56,7 +56,7 @@ const DesktopFifteenPage = () => {
                   />
                   <Button
                     className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[55%]"
-                    onClick={handleNavigate3}
+                    onClick={handleNavigate7}
                   >
                     Inicio
                   </Button>
@@ -69,7 +69,7 @@ const DesktopFifteenPage = () => {
                   />
                   <Button
                     className="common-pointer bg-transparent font-bold lg:ml-[12px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-gray_500 w-[65%]"
-                    onClick={handleNavigate2}
+                    onClick={handleNavigate6}
                   >
                     Horarios
                   </Button>
@@ -222,7 +222,7 @@ const DesktopFifteenPage = () => {
                     <Row className="items-center justify-between lg:mt-[21px] xl:mt-[26px] 2xl:mt-[30px] 3xl:mt-[36px] w-[100%]">
                       <Button
                         className="common-pointer font-semibold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center text-white_A700 w-[49%]"
-                        onClick={handleNavigate1}
+                        onClick={handleNavigate5}
                         shape="RoundedBorder20"
                         size="md"
                         variant="FillIndigo400"
