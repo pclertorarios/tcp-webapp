@@ -30,10 +30,10 @@ const ProjectRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Register />} />
+        <Route path="/" element={<DesktopEightOne />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/desktopone" element={<DesktopOne />} />
-        <Route path="/desktopeightone" element={<DesktopEightOne />} />
         <Route path="/desktopthirteentwo" element={<DesktopThirteenTwo />} />
         <Route path="/desktopfifteen" element={<DesktopFifteen />} />
         <Route path="/desktoponeone" element={<DesktopOneOne />} />

@@ -16,13 +16,13 @@ const DesktopFifteenPage = () => {
   const navigate = useNavigate();
 
   function handleNavigate1() {
-    navigate("/desktopeightone");
+    navigate("/");
   }
   function handleNavigate2() {
     navigate("/desktopthirteentwo");
   }
   function handleNavigate3() {
-    navigate("/desktopeightone");
+    navigate("/");
   }
 
   return (

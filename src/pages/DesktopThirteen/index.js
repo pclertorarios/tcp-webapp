@@ -16,7 +16,7 @@ const DesktopThirteenPage = () => {
   const navigate = useNavigate();
 
   function handleNavigate() {
-    navigate("/desktopeightone");
+    navigate("/");
   }
   function handleNavigate35() {
     navigate("/desktopthirtyseventwo");
