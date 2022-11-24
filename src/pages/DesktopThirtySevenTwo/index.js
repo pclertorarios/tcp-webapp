@@ -206,7 +206,7 @@ const DesktopThirtySevenTwoPage = () => {
                   className="font-bold lg:ml-[16px] xl:ml-[20px] 2xl:ml-[23px] 3xl:ml-[27px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center w-[31%]"
                   shape="RoundedBorder20"
                   size="lg"
-                  variant="OutlineIndigo4001_2"
+                  variant="OutlineIndigo400_1"
                 >
                   Modificar
                 </Button>
@@ -214,7 +214,7 @@ const DesktopThirtySevenTwoPage = () => {
                   className="font-bold lg:ml-[16px] xl:ml-[20px] 2xl:ml-[23px] 3xl:ml-[27px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center w-[31%]"
                   shape="RoundedBorder20"
                   size="lg"
-                  variant="OutlineIndigo4001_2"
+                  variant="OutlineIndigo400_1"
                 >
                   Ingresar a la sesión
                 </Button>

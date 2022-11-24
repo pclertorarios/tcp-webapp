@@ -14,7 +14,7 @@ const variants = {
     "bg-white_A700 border-bw3 border-indigo_400 border-solid text-indigo_400",
   FillGray800: "bg-gray_800",
   OutlineGray800: "border-bw3 border-gray_800 border-solid text-gray_800",
-  OutlineIndigo4001_2:
+  OutlineIndigo400_1:
     "border-bw3 border-indigo_400 border-solid text-indigo_400",
   icbFillIndigo400: "bg-indigo_400",
   icbFillWhiteA7005b: "bg-white_A700_5b",
@@ -69,7 +69,7 @@ Button.propTypes = {
     "OutlineIndigo400",
     "FillGray800",
     "OutlineGray800",
-    "OutlineIndigo4001_2",
+    "OutlineIndigo400_1",
     "icbFillIndigo400",
     "icbFillWhiteA7005b",
     "icbFillGray800",

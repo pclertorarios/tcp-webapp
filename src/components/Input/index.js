@@ -3,7 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const variants = {
-  FillWhiteA7001_2: "bg-white_A700",
+  FillWhiteA700_1: "bg-white_A700",
   FillWhiteA700: "bg-white_A700",
   FillGray50: "bg-gray_50",
 };
@@ -66,7 +66,7 @@ Input.propTypes = {
   placeholder: PropTypes.string,
   type: PropTypes.string,
   shape: PropTypes.oneOf(["RoundedBorder20"]),
-  variant: PropTypes.oneOf(["FillWhiteA7001_2", "FillWhiteA700", "FillGray50"]),
+  variant: PropTypes.oneOf(["FillWhiteA700_1", "FillWhiteA700", "FillGray50"]),
   size: PropTypes.oneOf(["sm", "md", "lg"]),
 };
 Input.defaultProps = {
@@ -76,7 +76,7 @@ Input.defaultProps = {
   placeholder: "",
   type: "text",
   shape: "RoundedBorder20",
-  variant: "FillWhiteA7001_2",
+  variant: "FillWhiteA700_1",
   size: "sm",
 };
 

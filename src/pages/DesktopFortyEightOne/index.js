@@ -206,7 +206,7 @@ const DesktopFortyEightOnePage = () => {
                   onClick={handleNavigate33}
                   shape="RoundedBorder20"
                   size="md"
-                  variant="OutlineIndigo4001_2"
+                  variant="OutlineIndigo400_1"
                 >
                   Volver
                 </Button>
