@@ -2,10 +2,7 @@ import { ErrorMessage } from "../../components/ErrorMessage";
 import React from "react";
 import PropTypes from "prop-types";
 
-const variants = {
-  FillWhiteA700: "bg-white_A700",
-  OutlineRed200: "bg-white_A700 border border-red_200 border-solid",
-};
+const variants = { FillWhiteA700: "bg-white_A700" };
 const shapes = { RoundedBorder20: "rounded-radius20" };
 const sizes = { sm: "lg:p-[14px] xl:p-[17px] p-[20px] 3xl:p-[24px]" };
 
@@ -83,7 +80,7 @@ FloatingInput.propTypes = {
   prefix: PropTypes.node,
   suffix: PropTypes.node,
   shape: PropTypes.oneOf(["RoundedBorder20"]),
-  variant: PropTypes.oneOf(["FillWhiteA700", "OutlineRed200"]),
+  variant: PropTypes.oneOf(["FillWhiteA700"]),
   size: PropTypes.oneOf(["sm"]),
 };
 FloatingInput.defaultProps = {

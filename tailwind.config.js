@@ -55,6 +55,7 @@ module.exports = {
         white_A700: "#ffffff",
         bluegray_901: "#232a3e",
       },
+      borderWidth: { bw3: "3px" },
       borderRadius: {
         radius10: "10px",
         radius20: "20px",
@@ -62,7 +63,6 @@ module.exports = {
         radius155: "15.5px",
         radius5109: "51.09px",
       },
-      borderWidth: { bw3: "3px" },
       backgroundImage: {
         gradient: "linear-gradient(180deg ,#fdc520,#fa7b3f)",
         gradient1: "linear-gradient(180deg ,#4bb5ff,#3f73ff)",

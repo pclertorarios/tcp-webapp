@@ -66,9 +66,6 @@ li:hover{
   transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
 
-.pattern{
- @apply absolute xl:h-[1013px] 2xl:h-[1139px] 3xl:h-[1367px] lg:h-[810px] w-[100%]; 
-}
 .rowd01bb442c0777dnine{
  @apply font-bold 2xl:mt-[11px] 3xl:mt-[13px] lg:mt-[7px] xl:mt-[9px] text-gray_900 w-[auto]; 
 }
@@ -95,12 +92,6 @@ li:hover{
 }
 .TPCoficialig{
  @apply absolute font-semibold text-gray_400 w-[auto]; 
-}
-.d01bb442c0777dNine_One{
- @apply lg:h-[43px] xl:h-[54px] 2xl:h-[61px] 3xl:h-[73px] w-[21%]; 
-}
-.ImagecobaFour{
- @apply absolute lg:h-[338px] xl:h-[423px] 2xl:h-[476px] 3xl:h-[571px] right-[0] top-[20%] w-[49%]; 
 }
 .columnd01bb442c0777dnine2{
  @apply font-bold lg:mt-[16px] xl:mt-[20px] 2xl:mt-[23px] 3xl:mt-[27px] text-gray_900 w-[auto]; 

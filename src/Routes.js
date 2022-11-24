@@ -12,7 +12,6 @@ import DesktopFortyEightOne from "pages/DesktopFortyEightOne";
 import DesktopThirtySevenTwo from "pages/DesktopThirtySevenTwo";
 import DesktopThirteen from "pages/DesktopThirteen";
 import DesktopFortySeven from "pages/DesktopFortySeven";
-import Regsitroerror from "pages/Regsitroerror";
 import DesktopThirtySevenOne from "pages/DesktopThirtySevenOne";
 import DesktopSeventeen from "pages/DesktopSeventeen";
 import DesktopEight from "pages/DesktopEight";
@@ -43,7 +42,6 @@ const ProjectRoutes = () => {
           path="/desktopthirtysevenone"
           element={<DesktopThirtySevenOne />}
         />
-        <Route path="/regsitroerror" element={<Regsitroerror />} />
         <Route path="/desktopfortyseven" element={<DesktopFortySeven />} />
         <Route path="/desktopthirteen" element={<DesktopThirteen />} />
         <Route

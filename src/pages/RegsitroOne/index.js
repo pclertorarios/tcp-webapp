@@ -13,7 +13,11 @@ const RegsitroOnePage = () => {
   return (
     <>
       <Stack className="bg-gray_50 font-montserrat xl:h-[1013px] 2xl:h-[1139px] 3xl:h-[1367px] lg:h-[810px] mx-[auto] pl-[1px] w-[100%]">
-        <Img src="images/img_pattern.png" className="pattern" alt="pattern" />
+        <Img
+          src="images/img_pattern.png"
+          className="absolute xl:h-[1013px] 2xl:h-[1139px] 3xl:h-[1367px] lg:h-[810px] w-[100%]"
+          alt="pattern"
+        />
         <Column className="absolute bottom-[11%] inset-x-[0] items-center justify-start mx-[auto] w-[81%]">
           <Column className="justify-start w-[100%]">
             <Row className="items-start w-[94%]">
@@ -90,7 +94,7 @@ const RegsitroOnePage = () => {
         <Column className="absolute justify-start left-[10%] top-[4%] w-[37%]">
           <Img
             src="images/img_d01bb442c0777d9.png"
-            className="d01bb442c0777dNine_One"
+            className="lg:h-[43px] xl:h-[54px] 2xl:h-[61px] 3xl:h-[73px] w-[21%]"
             alt="d01bb442c0777dNine One"
           />
           <Text
@@ -148,7 +152,7 @@ const RegsitroOnePage = () => {
         </Column>
         <Img
           src="images/img_imagecoba4.png"
-          className="ImagecobaFour"
+          className="absolute lg:h-[338px] xl:h-[423px] 2xl:h-[476px] 3xl:h-[571px] right-[0] top-[20%] w-[49%]"
           alt="ImagecobaFour"
         />
       </Stack>
